@@ -5,10 +5,23 @@
    <link rel="alternate" href="http://www.geocities.jphttp://localhost:4000" />
    <link rel="self" href="http://www.geocities.jphttp://localhost:4000atom.xml" />
    <id>http://www.geocities.jphttp://localhost:4000</id>
-   <updated>2019-02-22T20:58:53+09:00</updated>
+   <updated>2019-02-22T22:42:28+09:00</updated>
    <author>
       <name>Kusumoto</name>
    </author>
+   
+   <entry>
+     <title>ブログの引越し</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2019/02/Moving-from-giocities.html" />
+     <id>http://www.geocities.jp/2019/02/Moving-from-giocities.html</id>
+     <updated>2019-02-22T00:00:00+09:00</updated>
+     <summary type="html">&lt;p&gt;Yahoo!ジオシティーズのサービスが&lt;a href=&quot;https://info-geocities.yahoo.co.jp/close/index.html&quot;&gt;３月末に終了&lt;/a&gt;してしまうので、当ブログの引越しをします。最近はほとんど更新していない状態で、移転してまで続ける必要があるのかと言われれば、まぁない訳だけど、そのうち気が変わって更新頻度が上がるかもしれんし。&lt;/p&gt;
+&lt;p&gt;有料のサーバ契約すると小遣い減るし、無料で広告いっぱい出るのも嫌だしと悩んだ末、&lt;a href=&quot;https://github.co.jp&quot;&gt;GitHub&lt;/a&gt; に（只で）間借りさせてもらうことにした。&lt;/p&gt;
+&lt;p&gt;ブログの新しいアドレスは、&lt;a href=&quot;https://kusumotonorio.github.io&quot;&gt;https://kusumotonorio.github.io&lt;/a&gt; の予定です。気が向いたら覗いてやってください。&lt;/p&gt;</summary>
+   </entry>
    
    <entry>
      <title>断捨離的ＯＳバージョンアップ・インストール</title>
@@ -72,23 +85,6 @@
      <summary type="html">&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/jisui400s.png&quot; title=&quot;400冊&quot; alt=&quot;400冊&quot; /&gt;&lt;br /&gt;
 　&lt;/p&gt;
 &lt;p&gt;４００冊まで来た。文庫や新書サイズの本以外は、相当少なくなった。&lt;/p&gt;</summary>
-   </entry>
-   
-   <entry>
-     <title>釣り場で見た珍しいもの</title>
-     <author>
-       <name>Kusumoto</name>
-     </author>
-     <link href="http://www.geocities.jp/2018/05/vortex.html" />
-     <id>http://www.geocities.jp/2018/05/vortex.html</id>
-     <updated>2018-05-01T00:00:00+09:00</updated>
-     <summary type="html">&lt;p&gt;以前はあれだけ行っていた渓流釣りも、ここ数年は年に一度か二度ぐらいの頻度になってしまった。今期は早めにゴールデンウィークに初釣行。最初は釣り方を思い出すだけで終わったりすることも多いところ、条件が合った様で良い思いが出来た。&lt;/p&gt;
-&lt;p&gt;落差が激しい場所ではときどき、上流の直接見ることが出来ないけど魚が居そうなポイントにフライを投げ、勘で合せるということをしている。状況が見える所まで上っていくと、近過ぎて魚を驚かせてチャンスを潰してしまうからだ。&lt;/p&gt;
-&lt;p&gt;昨日のそんなポイントで、もうフライが下に流れ落ちてくるだろうというタイミングで、合せぎみにフライのピックアップ（空中に持ち上げる動作）をしたら、跳ね上がってこない。といって、魚が掛った感触でも、流木に引掛ってる手応えでもない。自分が上に上ってみると、そこに渦が出来ていて、その中にフライが吸い込まれてしまっていた。&lt;/p&gt;
-&lt;p&gt;　&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/R0000623sq180501.jpg&quot; title=&quot;渦&quot; alt=&quot;渦&quot; /&gt;&lt;br /&gt;
-　&lt;/p&gt;
-&lt;p&gt;石の間から下に水が落ちていてこうなっているのだろうけど、渦がずっと持続しているのは初めて見た。&lt;/p&gt;</summary>
    </entry>
    
 </feed>
