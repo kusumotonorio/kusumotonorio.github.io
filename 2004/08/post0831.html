@@ -1,0 +1,114 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>トラックバック・ピープルを簡単に</title>
+
+  <!-- link rel="stylesheet" href="/styles-site.css" type="text/css" /-->
+
+  <!-- デバイスサイズ1100px以下 -->
+  <!-- link rel="stylesheet" type="text/css" media="only screen and (max-device-width:1100px)" href="/styles-site-smart-phone.css" / -->
+ 
+  <!-- デバイスサイズ1101px以上 -->
+  <!-- link rel="stylesheet" type="text/css" media="screen and (min-device-width:1101px)" href="/styles-site.css" / -->
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site-smart-phone.css" />');
+} else {
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site.css" />');
+}
+</script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+</head>
+<body>
+    <div class="post">
+  <div id="banner">
+    <h1>
+      <a href="/" accesskey="1">Kusumoto's Blog</a>
+      <span class="description">
+	&nbsp;&nbsp;&nbsp;&nbsp;フライフィッシング番外地通信
+      </span>
+    </h1>
+  </div>
+
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+	<A href="javascript:history.back();">戻る</a>
+	<br />
+	<br />
+	
+	前の投稿：&nbsp;<a href="/2004/08/post0826.html">アマチュア・ロッド・リビルダー</a>
+	 
+	<br />
+	 
+	次の投稿：&nbsp;<a href="/2004/09/post0905.html">あと一月</a>
+	
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="date">31 Aug 2004</h2>
+      <div class="blogbody">
+	<script type="text/javascript">
+	  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {;	    
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg" style="max-width: 224px"/>');
+
+	  } else {
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg"  width="112" height="87" border="0" />');	 
+	  }
+	</script>
+	<h3 class="title">
+	  トラックバック・ピープルを簡単に
+	</h3>
+	<div align="right">
+	   
+	  [ <a href="/categories/COMPUTER/index.html">COMPUTER</a> ] 
+	  
+	  <br />
+	</div>
+	<br/>
+	<p>このブログはローカルでMTを走らせ、出来たページを.Macにアップしているためピンを受けられず、今までトラックバックに縁が無かった。けれども<a href="http://www.blogpeople.net/">Blogpeople</a>がトラックバックを活用したサービス、『<a href="http://member.blogpeople.net/TB_People/index.html">トラックバック・ピープル</a>』を開始したので、使ってみたくなった。<br /><br />同じ様なブログ運営になるiBlogの<a href="http://homepage.mac.com/travellers/index.html">あるユーザの方</a>が、Mac OS X 用に<a href="http://homepage.mac.com/travellers/blog/C859012508/E2024290388/">PingTrackback</a>というトラックバックためのアプリを公開してくれていて、これを使うとトラックバック・ピープルにもトラックバック出来る。ただ、PingTrackbackはiBlogで作成したページと連動する様に出来ているので、基本機能は使えるが美味しいところが使えない。それと、トラックバック・ピープルのために使うことを考えると、トラックバック先のURLを毎回入力するのが面倒だ。<br /><br />そこで自分で専用アプリを作ることを考えたが、面倒だし、いつ完成するやら分からない。トラックバックの仕様を見てみたら、ブラウザからフォームをポストするだけでトラックバック出来ることが分かった。それならアプリを作らなくても、CGIを作る程度でトラックバック用ツールが出来る。ローカルでMTを動かしているので既にwebサーバーが動いていて、CGIも使える様になっている。挑戦してみることにした。<br /><br />Pythonで書いたCGIはいろいろまずいところが残っていて、Safariでしかうまく動かないみたいだ。<br /><br />自分の環境やブログに合わせて手直しをして、拡張子をcgiに変更。CGIとして起動出来るディレクトリに移動し、起動出来る様にフラグを立てる。<br /><br />このCGIで表示されたページの最後にあるブックマークレットを登録して使うと、入力の手間が省ける。トラックバックしたいエントリのページを表示して、概要に入力したい文章を選択しておいてブックマークレットを選ぶ。<br /><br />トラックバック・ピープルのリストがプログラムに埋め込まれていたりとイマイチの出来だが、とりあえず自分で使うにはこれで良いかなと。こんな感じで出来るので、もっと良いツールを作って公開して下さいね。<br /><br /><br />　</p>
+	<p><br /></p>
+	<div class="posted">
+	  Posted at 31 Aug 2004  00:00 | <script type="text/javascript" language="javascript"><!--
+document.write('<a href="mailto:' + 'kusumoto@' + 'na.rim.or.jp' + '?subject=Re:トラックバック・ピープルを簡単に' + '">' + 'この内容に返信する' + '</a>');
+// -->
+	  </script>
+	<br />
+	<br />
+	</div>
+      </div>
+    </div>
+<!--
+    <div class="blog">
+      <div id="menu">
+	<h4>Possibly related posts (automatically generated)</h4>
+	<ul>
+	  
+          <li>Jan 04, 2019 &raquo; <a href="/2019/01/mojave.html">断捨離的ＯＳバージョンアップ・インストール</a></li>
+	  
+          <li>Jan 01, 2019 &raquo; <a href="/2019/01/happy_new_year2019.html">謹賀新年</a></li>
+	  
+          <li>Dec 03, 2018 &raquo; <a href="/2018/12/Just-Married.html">結婚しました</a></li>
+	  
+	</ul>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>
+
+<!-- emacs setting   Don't erase.
+Local Variables:
+coding: utf-8
+End:
+-->
+
+</body>

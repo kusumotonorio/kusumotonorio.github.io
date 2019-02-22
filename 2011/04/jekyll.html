@@ -1,0 +1,125 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>こんにちは、Jekyll 博士</title>
+
+  <!-- link rel="stylesheet" href="/styles-site.css" type="text/css" /-->
+
+  <!-- デバイスサイズ1100px以下 -->
+  <!-- link rel="stylesheet" type="text/css" media="only screen and (max-device-width:1100px)" href="/styles-site-smart-phone.css" / -->
+ 
+  <!-- デバイスサイズ1101px以上 -->
+  <!-- link rel="stylesheet" type="text/css" media="screen and (min-device-width:1101px)" href="/styles-site.css" / -->
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site-smart-phone.css" />');
+} else {
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site.css" />');
+}
+</script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+</head>
+<body>
+    <div class="post">
+  <div id="banner">
+    <h1>
+      <a href="/" accesskey="1">Kusumoto's Blog</a>
+      <span class="description">
+	&nbsp;&nbsp;&nbsp;&nbsp;フライフィッシング番外地通信
+      </span>
+    </h1>
+  </div>
+
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+	<A href="javascript:history.back();">戻る</a>
+	<br />
+	<br />
+	
+	前の投稿：&nbsp;<a href="/2011/03/harmony_assistant_960_melody_a.html">Harmony Assistant 9.6.0, Melody Assistant 7.6.0</a>
+	 
+	<br />
+	 
+	次の投稿：&nbsp;<a href="/2011/04/ishigaki-1.html">石垣島ソルト F. F. 外道戦記（１） 再挑戦</a>
+	
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="date">23 Apr 2011</h2>
+      <div class="blogbody">
+	<script type="text/javascript">
+	  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {;	    
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg" style="max-width: 224px"/>');
+
+	  } else {
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg"  width="112" height="87" border="0" />');	 
+	  }
+	</script>
+	<h3 class="title">
+	  こんにちは、Jekyll 博士
+	</h3>
+	<div align="right">
+	   
+	  [ <a href="/categories/COMPUTER/index.html">COMPUTER</a> ] 
+	  
+	  <br />
+	</div>
+	<br/>
+	<p>そもそもは Mac 上の Java が残念な所為でイマイチな <a href="http://www.justsystems.com/jp/products/xfy_blog/">Xfy Blog Editor</a>  を使う代りに Emacs でブログを書けないかと調べ始めたのだが、静的 Web サイト作成ツール <a href="http://jekyllrb.com/">Jekyll</a> の存在を知って、OS のバージョン・アップの度に<a href="/2010/01/post_146.html">苦労させられる</a>、２００３年から使ってきた <a href="http://www.sixapart.jp/movabletype/">Movable Type</a> を止めて、 その Jekyll を使うことにした。</p>
+<p>Movable Type の出来が悪いということではなく、手元のコンピュータで作ったサイトのページをアドレスを差し替えて他のサーバーにアップロードするという様な開発元が想定していない使い方をしており、大規模な商用ブログサービスに使われる Movable Type と自分の使い方がバージョン・アップする度に乖離していってしまった。</p>
+<p>また、Xfy Blog Editor は<a href="http://support.justsystems.com/jp/app/servlet/product?pid=551&amp;p=p-xfyblogeditor_v-1.1.1.0_c-p">ディスコン</a>になっているみたいだ。遅かれ早かれブログ執筆環境は変えなければならない状況だった。</p>
+<p>Jekyll に変更するにあたって、次のことを方針とした。</p>
+<ul>
+	<li>今まで書いたエントリーを編集可能な状態で引き継ぐ</li>
+	<li>原則、今までのエントリーの <span class="caps">URL</span> を維持する</li>
+	<li>ページのデザインは今までのテンプレートを流用して引き継ぐ</li>
+	<li>今までの機能を出来るだけ再現する</li>
+	<li>複雑になってしまったアップロードの処理を単純化する</li>
+</ul>
+<p>まだ試行錯誤をしているが、だいたいは目的を逹することが出来た。自分のための記録としてどの様なことをやったかを書いておこうと思うが、長くなりそうなので他が一段落してからに。</p>
+	<p><br /></p>
+	<div class="posted">
+	  Posted at 23 Apr 2011  00:00 | <script type="text/javascript" language="javascript"><!--
+document.write('<a href="mailto:' + 'kusumoto@' + 'na.rim.or.jp' + '?subject=Re:こんにちは、Jekyll 博士' + '">' + 'この内容に返信する' + '</a>');
+// -->
+	  </script>
+	<br />
+	<br />
+	</div>
+      </div>
+    </div>
+<!--
+    <div class="blog">
+      <div id="menu">
+	<h4>Possibly related posts (automatically generated)</h4>
+	<ul>
+	  
+          <li>Jan 04, 2019 &raquo; <a href="/2019/01/mojave.html">断捨離的ＯＳバージョンアップ・インストール</a></li>
+	  
+          <li>Jan 01, 2019 &raquo; <a href="/2019/01/happy_new_year2019.html">謹賀新年</a></li>
+	  
+          <li>Dec 03, 2018 &raquo; <a href="/2018/12/Just-Married.html">結婚しました</a></li>
+	  
+	</ul>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>
+
+<!-- emacs setting   Don't erase.
+Local Variables:
+coding: utf-8
+End:
+-->
+
+</body>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>iBlog から Movable Type へ</title>
+
+  <!-- link rel="stylesheet" href="/styles-site.css" type="text/css" /-->
+
+  <!-- デバイスサイズ1100px以下 -->
+  <!-- link rel="stylesheet" type="text/css" media="only screen and (max-device-width:1100px)" href="/styles-site-smart-phone.css" / -->
+ 
+  <!-- デバイスサイズ1101px以上 -->
+  <!-- link rel="stylesheet" type="text/css" media="screen and (min-device-width:1101px)" href="/styles-site.css" / -->
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site-smart-phone.css" />');
+} else {
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site.css" />');
+}
+</script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+</head>
+<body>
+    <div class="post">
+  <div id="banner">
+    <h1>
+      <a href="/" accesskey="1">Kusumoto's Blog</a>
+      <span class="description">
+	&nbsp;&nbsp;&nbsp;&nbsp;フライフィッシング番外地通信
+      </span>
+    </h1>
+  </div>
+
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+	<A href="javascript:history.back();">戻る</a>
+	<br />
+	<br />
+	
+	前の投稿：&nbsp;<a href="/2003/09/post0924.html">シーズンオフが間近</a>
+	 
+	<br />
+	 
+	次の投稿：&nbsp;<a href="/2003/09/post0928.html">道具の修理</a>
+	
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="date">25 Sep 2003</h2>
+      <div class="blogbody">
+	<script type="text/javascript">
+	  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {;	    
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg" style="max-width: 224px"/>');
+
+	  } else {
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg"  width="112" height="87" border="0" />');	 
+	  }
+	</script>
+	<h3 class="title">
+	  iBlog から Movable Type へ
+	</h3>
+	<div align="right">
+	   
+	  [ <a href="/categories/COMPUTER/index.html">COMPUTER</a> ] 
+	  
+	  <br />
+	</div>
+	<br/>
+	<p>iBlog は分かりやすく難しい設定も不要で、とてもMac らしい優れもののウェブログ・ツールなのだが、<br /><br />・<strike>生成するブログのアドレスをコントロール出来ない（多分）<br />　例えば、<a href="/B1024733657/index.html">以前のブログのアドレス</a>では、“B1024733657”が付いている</strike><br /><br />・<strike>どうやら、この“B1024733657”とかは再インストールすると変わってしまうらしい（？）</strike><br />・エントリ等の日本語が『実体参照』での表現になってしまう<br />・<strike>有償で、もうすぐ無料評価期間が終わる</strike><br /><br />ということで、ウェブログ作成ツールを iBlog から Movable Type に替えた。<br /><br />Mac OS X で Movable Type を動かし、ローカルのデータを変換してサーバー（.Mac）に上げているのだが、<a href="http://homepage1.nifty.com/~masaharu/">ひげおやじ&#8217;s HomePage</a> さんの下記のページがとても参考になった。どうもありがとうございました。ほとんどそのまま使わせてもらってます。<br /><br /><a href="http://homepage1.nifty.com/~masaharu/archives/cat_web.html">http://homepage1.nifty.com/~masaharu/archives/cat_web.html</a><br /><br />ただ、少しだけシェル・スクリプトに手を加えていて、<br /><br />rsync -vru ~/Documents/myblog/ /Volumes/user-name/Sites/your-blog-dir/<br /><br />という感じで最後に一行追加して、iDisk をマウントしてからスクリプトを走らせている。<br /><br />【追記　２００３　９／２７】<br />.Macユーザに期間限定の無償提供が始まった。<br />また、URLの制御については、設定で解決可能だということが分かった。<br />こうなると、Movable Typeへ移行したのは早まったかなぁ、と思わないでもない。<br />あとは、『実体参照』の件だが、HTMLの仕様に違反している訳じゃないので、変更してくれるかどうか…　これでアジア圏のユーザが増えてフィードバックが増えると、さらに良くなっていく可能性も。期待してます。　</p>
+	<p><br /></p>
+	<div class="posted">
+	  Posted at 25 Sep 2003  00:00 | <script type="text/javascript" language="javascript"><!--
+document.write('<a href="mailto:' + 'kusumoto@' + 'na.rim.or.jp' + '?subject=Re:iBlog から Movable Type へ' + '">' + 'この内容に返信する' + '</a>');
+// -->
+	  </script>
+	<br />
+	<br />
+	</div>
+      </div>
+    </div>
+<!--
+    <div class="blog">
+      <div id="menu">
+	<h4>Possibly related posts (automatically generated)</h4>
+	<ul>
+	  
+          <li>Jan 04, 2019 &raquo; <a href="/2019/01/mojave.html">断捨離的ＯＳバージョンアップ・インストール</a></li>
+	  
+          <li>Jan 01, 2019 &raquo; <a href="/2019/01/happy_new_year2019.html">謹賀新年</a></li>
+	  
+          <li>Dec 03, 2018 &raquo; <a href="/2018/12/Just-Married.html">結婚しました</a></li>
+	  
+	</ul>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>
+
+<!-- emacs setting   Don't erase.
+Local Variables:
+coding: utf-8
+End:
+-->
+
+</body>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+   <title type="text">KUSUMOTO&apos;S BLOG</title>
+   <subtitle>フライフィッシング番外地通信</subtitle>
+   <link rel="alternate" href="http://www.geocities.jphttp://localhost:4000" />
+   <link rel="self" href="http://www.geocities.jphttp://localhost:4000atom.xml" />
+   <id>http://www.geocities.jphttp://localhost:4000</id>
+   <updated>2019-02-22T20:36:04+09:00</updated>
+   <author>
+      <name>Kusumoto</name>
+   </author>
+   
+   <entry>
+     <title>断捨離的ＯＳバージョンアップ・インストール</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2019/01/mojave.html" />
+     <id>http://www.geocities.jp/2019/01/mojave.html</id>
+     <updated>2019-01-04T00:00:00+09:00</updated>
+     <summary type="html">&lt;p&gt;暫くブログの更新をサボっていたら、いつの間にか &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; が正常に動かなくなっており、ブログが書けなかった。アップデートで Ruby 環境が変わったのが原因らしい。いろいろやって結局直せなかったので、これを機会に最新の MacOS Mojave (10.14.2）にＯＳを入れ替えて、そこに Jekyll を入れることにした。&lt;/p&gt;
+&lt;p&gt;長年かけて溜まった、使わなくなったアプリ、設定やデータを新環境に出来るだけ持ってこない様にして、新年からスッキリを目指す。メールをはじめ各アプリのデータの移行、操作環境の再現などに一週間ほどかかったが、大体出来た様だ。前の環境からアプリを持ってきても、Mojave で動かないものも結構ある。Emacs が一番苦労した（終わってないけど）。&lt;/p&gt;
+&lt;p&gt;更新前は Jekyll にプラグインによる機能拡張を可能にする &lt;a href=&quot;https://github.com/rfelix/jekyll_ext&quot;&gt;jekyll_ext&lt;/a&gt;（ejekyll）を使っていたけども、後に Jekyll 自体が機能拡張機構を持つ様になって、もう jekyll_ext はメンテされていないみたいだ。jekyll_ext で使っていたプラグインと同じことを Jekyll のプラグインで行うにはもっと勉強が必要になるので、ハードルを下げて最低限の動作で妥協。なんとか新年挨拶の更新までに間に合った。&lt;/p&gt;</summary>
+   </entry>
+   
+   <entry>
+     <title>謹賀新年</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2019/01/happy_new_year2019.html" />
+     <id>http://www.geocities.jp/2019/01/happy_new_year2019.html</id>
+     <updated>2019-01-01T00:00:00+09:00</updated>
+     <summary type="html">&lt;p&gt;　&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/R0000734190101.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+　&lt;/p&gt;
+&lt;p&gt;　&lt;br /&gt;
+明けましておめでとうございます。&lt;/p&gt;
+&lt;p&gt;本年もよろしくお願いします。&lt;br /&gt;
+　&lt;br /&gt;
+　&lt;br /&gt;
+　&lt;br /&gt;
+　平成三十一年　元旦&lt;/p&gt;</summary>
+   </entry>
+   
+   <entry>
+     <title>結婚しました</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2018/12/Just-Married.html" />
+     <id>http://www.geocities.jp/2018/12/Just-Married.html</id>
+     <updated>2018-12-03T00:00:00+09:00</updated>
+     <summary type="html">&lt;p&gt;　&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/1543840996495s181203.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+　&lt;/p&gt;
+&lt;p&gt;　&lt;br /&gt;
+私たち このたび結婚いたしました。&lt;br /&gt;
+これからはふたりで助け合いながら温かい家庭を築きあげたいと思います。&lt;br /&gt;
+今後ともよろしくお願い申し上げます。&lt;/p&gt;
+&lt;p&gt;　平成三十年十二月三日&lt;/p&gt;</summary>
+   </entry>
+   
+   <entry>
+     <title>４００冊を通過</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2018/08/jisui400.html" />
+     <id>http://www.geocities.jp/2018/08/jisui400.html</id>
+     <updated>2018-08-06T00:00:00+09:00</updated>
+     <summary type="html">&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/jisui400s.png&quot; title=&quot;400冊&quot; alt=&quot;400冊&quot; /&gt;&lt;br /&gt;
+　&lt;/p&gt;
+&lt;p&gt;４００冊まで来た。文庫や新書サイズの本以外は、相当少なくなった。&lt;/p&gt;</summary>
+   </entry>
+   
+   <entry>
+     <title>釣り場で見た珍しいもの</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2018/05/vortex.html" />
+     <id>http://www.geocities.jp/2018/05/vortex.html</id>
+     <updated>2018-05-01T00:00:00+09:00</updated>
+     <summary type="html">&lt;p&gt;以前はあれだけ行っていた渓流釣りも、ここ数年は年に一度か二度ぐらいの頻度になってしまった。今期は早めにゴールデンウィークに初釣行。最初は釣り方を思い出すだけで終わったりすることも多いところ、条件が合った様で良い思いが出来た。&lt;/p&gt;
+&lt;p&gt;落差が激しい場所ではときどき、上流の直接見ることが出来ないけど魚が居そうなポイントにフライを投げ、勘で合せるということをしている。状況が見える所まで上っていくと、近過ぎて魚を驚かせてチャンスを潰してしまうからだ。&lt;/p&gt;
+&lt;p&gt;昨日のそんなポイントで、もうフライが下に流れ落ちてくるだろうというタイミングで、合せぎみにフライのピックアップ（空中に持ち上げる動作）をしたら、跳ね上がってこない。といって、魚が掛った感触でも、流木に引掛ってる手応えでもない。自分が上に上ってみると、そこに渦が出来ていて、その中にフライが吸い込まれてしまっていた。&lt;/p&gt;
+&lt;p&gt;　&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/R0000623sq180501.jpg&quot; title=&quot;渦&quot; alt=&quot;渦&quot; /&gt;&lt;br /&gt;
+　&lt;/p&gt;
+&lt;p&gt;石の間から下に水が落ちていてこうなっているのだろうけど、渦がずっと持続しているのは初めて見た。&lt;/p&gt;</summary>
+   </entry>
+   
+</feed>

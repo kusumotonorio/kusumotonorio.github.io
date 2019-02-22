@@ -1,0 +1,114 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>『式年遷宮』方式</title>
+
+  <!-- link rel="stylesheet" href="/styles-site.css" type="text/css" /-->
+
+  <!-- デバイスサイズ1100px以下 -->
+  <!-- link rel="stylesheet" type="text/css" media="only screen and (max-device-width:1100px)" href="/styles-site-smart-phone.css" / -->
+ 
+  <!-- デバイスサイズ1101px以上 -->
+  <!-- link rel="stylesheet" type="text/css" media="screen and (min-device-width:1101px)" href="/styles-site.css" / -->
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site-smart-phone.css" />');
+} else {
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site.css" />');
+}
+</script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+</head>
+<body>
+    <div class="post">
+  <div id="banner">
+    <h1>
+      <a href="/" accesskey="1">Kusumoto's Blog</a>
+      <span class="description">
+	&nbsp;&nbsp;&nbsp;&nbsp;フライフィッシング番外地通信
+      </span>
+    </h1>
+  </div>
+
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+	<A href="javascript:history.back();">戻る</a>
+	<br />
+	<br />
+	
+	前の投稿：&nbsp;<a href="/2005/04/post0424.html">慣れるのもどうかと思うが</a>
+	 
+	<br />
+	 
+	次の投稿：&nbsp;<a href="/2005/05/post0508.html">初釣り</a>
+	
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="date">06 May 2005</h2>
+      <div class="blogbody">
+	<script type="text/javascript">
+	  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {;	    
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg" style="max-width: 224px"/>');
+
+	  } else {
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg"  width="112" height="87" border="0" />');	 
+	  }
+	</script>
+	<h3 class="title">
+	  『式年遷宮』方式
+	</h3>
+	<div align="right">
+	   
+	  [ <a href="/categories/COMPUTER/index.html">COMPUTER</a> ] 
+	  
+	  <br />
+	</div>
+	<br/>
+	<p>OSを『Mac OS X 10.4 Tiger』に載せ換える。<br /><br />AppleのOSのメジャー・バージョンアップのときには「バグ取り」が不十分だったり、周辺機器メーカの対応が間に合わなかったりで、いきなり移行してしまうと問題が多発して大変なので、本当はドタバタが収まる時期まで待った方が懸命だ。しかし、新しいOSが出たら直ぐ使ってみたいのが（Appleおたくの）人情というものである。<br /><br />Mac miniを買った時点で次期OSの登場が近いことが分かっていたので、ハードディスクを二分割しておいた。空けておいたパーティションにCarbon Copy Clonerを使って今までの環境を起動可能な状態でコピーし、新OSをクリーン・インストール。新旧のOSどちらでも使えるようにした。大きな問題がなければすぐに新環境に切り替えようと思っていたのだが ——— <br /><br />私の感想では、現状の“Mac OS X 10.4 Tiger”は<span style="text-decoration: line-through;">実用（実務）に堪えない</span>（追記：まぁ、なんとかなる気がしてきた）。移行はアップデータが出て、不具合が少なくなってからの方が良いだろう。自分のところで起きる不具合は：<br /><br /></p><blockquote><p>● LAServerのCPU使用率が上がりっぱなし<br />これは他の人からも報告されている。で、CPUを占有して、冷却ファンがフル稼働する。（追記：これはほっとけば止まるものらしい。）<br /><br />●インターネット接続が、選択モデムを覚えていない。<br />メニューバーのモデムメニューで、チェックが外れてしまう。（追記：取りあえず、AIR EDGEだけの『ネットワーク環境』を作って運用することにする。）<br /><br />　（動作環境：　Mac mini 1.42GHz &#8211; 512MB）<br /></p></blockquote><p><br /><br />何故、出荷前に気付かないのか…。小賢しく「サプライズ」を目指さずに、ベータ・テストをちゃんとやってほしい。もうプレ・インストールOSが10.4になったらしいが、こんな状態で大丈夫なんだろうか。<br /><br />あと、個人的には<a href="http://www.jrc.co.jp/jp/product/comm/air-edge/j3003s/index.html">AH-J3003S</a>でのダイアルアップ接続が安定しないのが一番痛い。pppdを「殺し」ても接続解除の状態から抜け出せないことが多いので、再起動ばかりしている。日本無線は10.4への対応をうたっていないのでAppleの問題だとは言えないのだが、専用のドライバではなく一般的なUSBモデムとして接続するので、Apple側が何かしないと改善しないのではないかと思う。（追記：これは、10.4の問題ではないのかもしれない。“IO-<span class="caps">DATA</span> <span class="caps">USB</span>-CFADP” のモデムスクリプトを流用すると、多少安定する。）<br /><br />ネガティブな感想を書かざるをえないのは、Appleファンとしては残念である。もちろん魅力的な点も多いので、問題が改善されれば早く移りたい。<br /><br />　</p>
+	<p><br /></p>
+	<div class="posted">
+	  Posted at 06 May 2005  00:00 | <script type="text/javascript" language="javascript"><!--
+document.write('<a href="mailto:' + 'kusumoto@' + 'na.rim.or.jp' + '?subject=Re:『式年遷宮』方式' + '">' + 'この内容に返信する' + '</a>');
+// -->
+	  </script>
+	<br />
+	<br />
+	</div>
+      </div>
+    </div>
+<!--
+    <div class="blog">
+      <div id="menu">
+	<h4>Possibly related posts (automatically generated)</h4>
+	<ul>
+	  
+          <li>Jan 04, 2019 &raquo; <a href="/2019/01/mojave.html">断捨離的ＯＳバージョンアップ・インストール</a></li>
+	  
+          <li>Jan 01, 2019 &raquo; <a href="/2019/01/happy_new_year2019.html">謹賀新年</a></li>
+	  
+          <li>Dec 03, 2018 &raquo; <a href="/2018/12/Just-Married.html">結婚しました</a></li>
+	  
+	</ul>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>
+
+<!-- emacs setting   Don't erase.
+Local Variables:
+coding: utf-8
+End:
+-->
+
+</body>

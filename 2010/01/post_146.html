@@ -1,0 +1,116 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>暫定的解決</title>
+
+  <!-- link rel="stylesheet" href="/styles-site.css" type="text/css" /-->
+
+  <!-- デバイスサイズ1100px以下 -->
+  <!-- link rel="stylesheet" type="text/css" media="only screen and (max-device-width:1100px)" href="/styles-site-smart-phone.css" / -->
+ 
+  <!-- デバイスサイズ1101px以上 -->
+  <!-- link rel="stylesheet" type="text/css" media="screen and (min-device-width:1101px)" href="/styles-site.css" / -->
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site-smart-phone.css" />');
+} else {
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site.css" />');
+}
+</script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+</head>
+<body>
+    <div class="post">
+  <div id="banner">
+    <h1>
+      <a href="/" accesskey="1">Kusumoto's Blog</a>
+      <span class="description">
+	&nbsp;&nbsp;&nbsp;&nbsp;フライフィッシング番外地通信
+      </span>
+    </h1>
+  </div>
+
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+	<A href="javascript:history.back();">戻る</a>
+	<br />
+	<br />
+	
+	前の投稿：&nbsp;<a href="/2010/01/_snow_leopard.html">寅年から Snow Leopard</a>
+	 
+	<br />
+	 
+	次の投稿：&nbsp;<a href="/2010/02/post_147.html">危険な実験</a>
+	
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="date">04 Jan 2010</h2>
+      <div class="blogbody">
+	<script type="text/javascript">
+	  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {;	    
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg" style="max-width: 224px"/>');
+
+	  } else {
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg"  width="112" height="87" border="0" />');	 
+	  }
+	</script>
+	<h3 class="title">
+	  暫定的解決
+	</h3>
+	<div align="right">
+	   
+	  [ <a href="/categories/COMPUTER/index.html">COMPUTER</a> ] 
+	   
+	  [ <a href="/categories/PHOTOGRAPH/index.html">PHOTOGRAPH</a> ] 
+	  
+	  <br />
+	</div>
+	<br/>
+	<p></p><p></p><p style="text-align:center;"><img src="/images/tmpimg1001042108n120100104210914011.jpg" alt="" style="width:400px;height:533px;float:none;" /></p><p></p><p style="text-align:center;"><span class="caps">LUMIX</span> <span class="caps">DMC</span>-GF1 / <span class="caps">LUMIX</span> G 20mm F1.7 <span class="caps">ASPH</span>.</p><p style="text-align:center;">　</p><p></p><p></p><p></p><p>Snow Leopard 環境で今までの様なブログ更新環境を維持するために悪戦苦闘していたが、一応それが出来そうである。</p><p></p><p>自前で <a href="http://ja.wikipedia.org/wiki/Movable_Type">Movable Type</a> を立ち上げ、ローカルの静的ファイルを他のサーバーにアップロードするという変則的な運用をしている。Movable Type のバージョンは 3.34 で、データ保存方式は <a href="http://ja.wikipedia.org/wiki/Berkeley_DB">Berkeley DB</a>。この 3.34 と Snow Leopard 環境の <span class="caps">XML</span>-<span class="caps">RPC</span> 絡みの相性が悪いらしくて、ecto 等のブログ・エディタでデータを送受信する際にエラーが出てしまう。</p><p></p><p>これには、Snow Leopard に入っている Perl のバージョンが今までのものより新しいことが関係している様だ。/usr/bin を見ると、Snow Leopard には 5.10.0 と 5.8.9 の、２バージョンの perl が入っていた。CGI を少しでも古い方の 5.8.9 で動かすために MT の各 cgi ファイルの先頭行を</p><blockquote cite=""><p>#!/usr/bin/perl -w</p><p></blockquote><p>から</p><blockquote cite=""><p>#!/usr/bin/perl5.8.9 -w</p></blockquote><p>に書き換える。これでブログ・エディタが Movable Type からデータを取り出す方はエラーが起きなくなったが、アップロード時は駄目だった。</p><p>データが壊れてしまうので Snow Leopard では使用するなという Mac 用ブログ・エディタがあることからして、どうやら Snow Leopard で <span class="caps">XML</span>-<span class="caps">RPC</span> か シリアライズ関連の <span class="caps">API</span> の動きが変ったらしい。そこで、Java で書かれたジャストシステムの <a href="http://www.justsystems.com/jp/products/xfy_blog/">xfy Blog Editor</a> の無償版を使ってみたら、送信も出来た。 </p><p></p><p>Movable Type のバージョンアップも考えたが、 Berkeley DB は 4 からサポートされなくなり、さらに最新バージョンの 5 では <a href="http://ja.wikipedia.org/wiki/MySQL">MySQL</a> を走らせてデータ保存しなくてはならない様になったらしい。どんどん敷居が高くなっている。長期間生き残りそうな環境として Movable Type を選んだのだが、確かに消えてはいないけど、かなり思惑とずれている感じ。</p><p></p><p>苦労して調べて設定してもうまくいく保証もないし、とりあえずこのまま xfy Blog Editor で更新するという運用を行なってみるつもりだ。さて、これでやっと新しいことが出来る。</p><p></p><p>　</p></p>
+	<p><br /></p>
+	<div class="posted">
+	  Posted at 04 Jan 2010  00:00 | <script type="text/javascript" language="javascript"><!--
+document.write('<a href="mailto:' + 'kusumoto@' + 'na.rim.or.jp' + '?subject=Re:暫定的解決' + '">' + 'この内容に返信する' + '</a>');
+// -->
+	  </script>
+	<br />
+	<br />
+	</div>
+      </div>
+    </div>
+<!--
+    <div class="blog">
+      <div id="menu">
+	<h4>Possibly related posts (automatically generated)</h4>
+	<ul>
+	  
+          <li>Jan 04, 2019 &raquo; <a href="/2019/01/mojave.html">断捨離的ＯＳバージョンアップ・インストール</a></li>
+	  
+          <li>Jan 01, 2019 &raquo; <a href="/2019/01/happy_new_year2019.html">謹賀新年</a></li>
+	  
+          <li>Dec 03, 2018 &raquo; <a href="/2018/12/Just-Married.html">結婚しました</a></li>
+	  
+	</ul>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>
+
+<!-- emacs setting   Don't erase.
+Local Variables:
+coding: utf-8
+End:
+-->
+
+</body>

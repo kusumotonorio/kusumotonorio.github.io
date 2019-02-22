@@ -1,0 +1,114 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>.MacのContent-Typeの不具合を回避する</title>
+
+  <!-- link rel="stylesheet" href="/styles-site.css" type="text/css" /-->
+
+  <!-- デバイスサイズ1100px以下 -->
+  <!-- link rel="stylesheet" type="text/css" media="only screen and (max-device-width:1100px)" href="/styles-site-smart-phone.css" / -->
+ 
+  <!-- デバイスサイズ1101px以上 -->
+  <!-- link rel="stylesheet" type="text/css" media="screen and (min-device-width:1101px)" href="/styles-site.css" / -->
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site-smart-phone.css" />');
+} else {
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site.css" />');
+}
+</script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+</head>
+<body>
+    <div class="post">
+  <div id="banner">
+    <h1>
+      <a href="/" accesskey="1">Kusumoto's Blog</a>
+      <span class="description">
+	&nbsp;&nbsp;&nbsp;&nbsp;フライフィッシング番外地通信
+      </span>
+    </h1>
+  </div>
+
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+	<A href="javascript:history.back();">戻る</a>
+	<br />
+	<br />
+	
+	前の投稿：&nbsp;<a href="/2005/04/post0412.html">サーバーに何かした？</a>
+	 
+	<br />
+	 
+	次の投稿：&nbsp;<a href="/2005/04/post0418.html">行ってきました、愛・地球博。</a>
+	
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="date">14 Apr 2005</h2>
+      <div class="blogbody">
+	<script type="text/javascript">
+	  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {;	    
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg" style="max-width: 224px"/>');
+
+	  } else {
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg"  width="112" height="87" border="0" />');	 
+	  }
+	</script>
+	<h3 class="title">
+	  .MacのContent-Typeの不具合を回避する
+	</h3>
+	<div align="right">
+	   
+	  [ <a href="/categories/COMPUTER/index.html">COMPUTER</a> ] 
+	  
+	  <br />
+	</div>
+	<br/>
+	<p>（<a href="/archives/000181.html">続き</a>）<br /><br />.Macサポートからメールが来たが、「奴らは間違った場所を掘っている」という感じがする。直してくれるのかどうか不安なので、自力解決を目指す。<br /><br />HTMLファイルをFinderからドラッグ＆ドロップしてコピーを行ったときは、Content-Typeがapplication/octet-streamに化けずに、text/htmlで正しく送られてくる。同様の不具合で困っている人の報告を見ると、「 GoliveのWebDAVなら問題ない」とのこと。確か、FinderもWebDAVでファイルをアップロードしていたはず。ということは、WebDAVプロトコルでアップロードすれば問題を回避できる可能性が高い。（追記： <a href="http://www.webdav.org/goliath/">Goliath</a>によるアップロードで問題が起きる報告もある。 GoliathはWebDAVクライアントなので、WebDAVであれば良いという訳ではないらしい。）<br /><br />WebDAVでアップロードするシンクロ・ツールを探したところ、<a href="http://www.lyra.org/sitecopy/">sitecopy</a>というものがあることが判った。.Macで使う方法が親切に解説されているページも見つけた。<br /><br />　・<a href="http://homepage.mac.com/nand/macosx/sitecopy_idisk.html">using sitecopy for synchronising local file and idisk(.Mac)</a><br /><br />このページに倣ってsitecopyの設定を行い、同期に成功した。結果は良好。“Content-Type: text/html”で送られてくる。それにしても、どうやったらこんな器用な不具合が起こせるんだろう。逆に難しそうなのだが。技術的な興味が湧きますな。<br /><br />今までrsyncを使っていたが、sitecopyに換えたことでアップロードにかかる時間が大幅に短縮されるという、嬉しい『副作用』があった。何か手を考えなくてはいけないと思っていたので、災い転じて福となすという感じだ。それに、iDiskをマウントしておかなくても良くなった。<br /><br /><br /><br />自分の為に、以下に設定方法をメモしておく。<br /><br />準備：</p><blockquote><p><span style="font-family: monospace;">% cd <sub><br />% mkdir -m 700 .sitecopy <br />% touch .sitecopyrc <br />% chmod 600 .sitecopyrc<br />% sitecopy &#8212;catchup blog<br /></span></p></blockquote><p><br /></sub>/.sitecopyrc</p><blockquote><p><span style="font-family: monospace;">site blog <br />&nbsp;server idisk.mac.com <br />&nbsp;protocol webdav <br />&nbsp;username n_kusumoto <br />&nbsp;password [.Mac password] <br />&nbsp;local [local blog path] <br />&nbsp;remote /n_kusumoto/Sites/blog/<br /></span></p></blockquote><p><br />同期時：</p><blockquote><p><span style="font-family: monospace;">% sitecopy &#8212;update blog<br /></span></p></blockquote><p></p>
+	<p><br /></p>
+	<div class="posted">
+	  Posted at 14 Apr 2005  00:00 | <script type="text/javascript" language="javascript"><!--
+document.write('<a href="mailto:' + 'kusumoto@' + 'na.rim.or.jp' + '?subject=Re:.MacのContent-Typeの不具合を回避する' + '">' + 'この内容に返信する' + '</a>');
+// -->
+	  </script>
+	<br />
+	<br />
+	</div>
+      </div>
+    </div>
+<!--
+    <div class="blog">
+      <div id="menu">
+	<h4>Possibly related posts (automatically generated)</h4>
+	<ul>
+	  
+          <li>Jan 04, 2019 &raquo; <a href="/2019/01/mojave.html">断捨離的ＯＳバージョンアップ・インストール</a></li>
+	  
+          <li>Jan 01, 2019 &raquo; <a href="/2019/01/happy_new_year2019.html">謹賀新年</a></li>
+	  
+          <li>Dec 03, 2018 &raquo; <a href="/2018/12/Just-Married.html">結婚しました</a></li>
+	  
+	</ul>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>
+
+<!-- emacs setting   Don't erase.
+Local Variables:
+coding: utf-8
+End:
+-->
+
+</body>

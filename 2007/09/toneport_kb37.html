@@ -1,0 +1,114 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>TonePort KB37、その後</title>
+
+  <!-- link rel="stylesheet" href="/styles-site.css" type="text/css" /-->
+
+  <!-- デバイスサイズ1100px以下 -->
+  <!-- link rel="stylesheet" type="text/css" media="only screen and (max-device-width:1100px)" href="/styles-site-smart-phone.css" / -->
+ 
+  <!-- デバイスサイズ1101px以上 -->
+  <!-- link rel="stylesheet" type="text/css" media="screen and (min-device-width:1101px)" href="/styles-site.css" / -->
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site-smart-phone.css" />');
+} else {
+    document.write('<link rel="stylesheet" type="text/css" href="/styles-site.css" />');
+}
+</script>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml" />
+</head>
+<body>
+    <div class="post">
+  <div id="banner">
+    <h1>
+      <a href="/" accesskey="1">Kusumoto's Blog</a>
+      <span class="description">
+	&nbsp;&nbsp;&nbsp;&nbsp;フライフィッシング番外地通信
+      </span>
+    </h1>
+  </div>
+
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+	<A href="javascript:history.back();">戻る</a>
+	<br />
+	<br />
+	
+	前の投稿：&nbsp;<a href="/2007/08/post_29.html">社会復帰</a>
+	 
+	<br />
+	 
+	次の投稿：&nbsp;<a href="/2007/09/post_30.html">今度来たときはよろしく。</a>
+	
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="date">01 Sep 2007</h2>
+      <div class="blogbody">
+	<script type="text/javascript">
+	  if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {;	    
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg" style="max-width: 224px"/>');
+
+	  } else {
+	    document.write('<img alt="stamp.jpg" src="/images/stamp.jpg"  width="112" height="87" border="0" />');	 
+	  }
+	</script>
+	<h3 class="title">
+	  TonePort KB37、その後
+	</h3>
+	<div align="right">
+	   
+	  [ <a href="/categories/COMPUTER/index.html">COMPUTER</a> ] 
+	  
+	  <br />
+	</div>
+	<br/>
+	<p><a href="/2007/04/post_11.html">ウクレレ練習支援のため（？）</a>に買った <a href="http://www.line6.jp/toneport/index.html">TonePort KB37</a> だが、録音中に「ジジジ…」という感じのノイズが時々入ってしまう。他のUSB機器と一緒に使うと問題があるのかとか、何かのソフトと相性が悪いんじゃないかとか、いろいろ付けたり外したりして試したが問題は解消出来ずにいる。（本当は、「演奏確認」にノイズが入っても支障はないのだが……。）機器が壊れているかというと、そうではないらしい。以前使っていた G4 Mac mini では正常に動作する。<br /><br />TonePort シリーズは<span style="text-decoration: line-through;">他のUSB機器では一般的ではない</span>「アイソクロナス転送モード」でパソコンと通信を行う。（追記：一般的にオーディオインターフェイスはアイソクロナス転送モードを使い、別に珍しいモードではないらしい。）USBインターフェース用チップによっては、この通信要求を捌ききれなかったりするらしい。特に、Intelのチップセットには、このUSBのアイソクロナス転送モードに関してバグがあって正常に動作しないものがあるとのこと。この様なときはUSBインターフェースボードを増設しろとメーカーは<a href="http://line6.com/support/entry!default.jspa?categoryID=39&amp;externalID=4158&amp;fromSearchPage=true">書いている</a>が、Mac mini には拡張スロットは無い。Intelの <span class="caps">CPU</span> を使用した Mac mini で正常に動作しないというアナウンスは無いのでこっちの問題なんだろうか。ともかく、なかなか気難しい機器であるらしい。<br /><br />もう一つの手持ちのオーディオ・インターフェイスである <a href="http://www.roland.co.jp/products/jp/UA-3FX/index.html">UA-3FX</a> は１チャンネルしかマイク入力出来ない。それが理由で Toneport KB37 を買ったのだったが、こうなったらこれを何とか上手く使う方法を考える。この機器、マイク入力は１チャンネルだがライン入力はステレオ録音出来る。つまり、マイク入力をラインレベルまで増幅してやれば良い訳だ。それに、幸いRode社のステレオ・コンデンサマイク NT4 はファンタム電源がなくても、乾電池で動作する。<br /><br />マイクアンプを買うのも癪だと考えていたら、昔、学祭のPA用に４CHマイク・ライン・ミキサ（<a href="http://blog.goo.ne.jp/day_knuckle/e/5bd7d19fcd5ad2320029b648f8c926d6"><span class="caps">YAMAHA</span> MV100</a>）を買って、今も捨てずに取ってあることを思い出した。試しにこいつをステレオマイクとの間に咬ませたら、上手く行く。安物で、長い間通電もしていない状態では音質は期待出来ないが、この際、細かいことは気にしないことにしよう。将来こんな風に役立つとは思っていなかったな。<br /><br />いつかパソコンを買い替えるまでメインの録音機能が使えない TonePort KB37。結構気に入っているんだけど。精々MIDIキーボード部を活用することを考えねば。<br /><br />（関連リンク：　<a href="/2008/03/toneport_kb37_1.html">TonePort KB37 のノイズ問題、解決</a>）<br />　</p>
+	<p><br /></p>
+	<div class="posted">
+	  Posted at 01 Sep 2007  00:00 | <script type="text/javascript" language="javascript"><!--
+document.write('<a href="mailto:' + 'kusumoto@' + 'na.rim.or.jp' + '?subject=Re:TonePort KB37、その後' + '">' + 'この内容に返信する' + '</a>');
+// -->
+	  </script>
+	<br />
+	<br />
+	</div>
+      </div>
+    </div>
+<!--
+    <div class="blog">
+      <div id="menu">
+	<h4>Possibly related posts (automatically generated)</h4>
+	<ul>
+	  
+          <li>Jan 04, 2019 &raquo; <a href="/2019/01/mojave.html">断捨離的ＯＳバージョンアップ・インストール</a></li>
+	  
+          <li>Jan 01, 2019 &raquo; <a href="/2019/01/happy_new_year2019.html">謹賀新年</a></li>
+	  
+          <li>Dec 03, 2018 &raquo; <a href="/2018/12/Just-Married.html">結婚しました</a></li>
+	  
+	</ul>
+      </div>
+    </div>
+-->
+  </div>
+
+</div>
+
+<!-- emacs setting   Don't erase.
+Local Variables:
+coding: utf-8
+End:
+-->
+
+</body>
