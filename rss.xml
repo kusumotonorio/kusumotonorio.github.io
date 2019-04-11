@@ -5,8 +5,8 @@
     <link>http://www.geocities.jphttp://localhost:4000</link>
     <description>フライフィッシング番外地通信</description>
     <language>ja</language>
-    <pubDate>Fri, 12 Apr 2019 07:26:22 JST</pubDate>
-    <lastBuildDate>Fri, 12 Apr 2019 07:26:22 JST</lastBuildDate>
+    <pubDate>Fri, 12 Apr 2019 07:34:55 JST</pubDate>
+    <lastBuildDate>Fri, 12 Apr 2019 07:34:55 JST</lastBuildDate>
     
     <item>
       <title>Factor Inline Input 1</title>
@@ -14,7 +14,7 @@
       <pubDate>Thu, 11 Apr 2019 00:00:00 JST</pubDate>
       <author>http://www.geocities.jphttp://localhost:4000 (Kusumoto)</author>
       <guid>http://www.geocities.jp/2019/04/inline-input-1.html</guid>
-      <description>&lt;p&gt;I want to make &lt;a href=&quot;http://factorcode.org/&quot;&gt;Factor&lt;/a&gt; inline input possible in CJK languages such as Japanese. So, I’m modifying it. However, I’ve got stuck.&lt;/p&gt;
+      <description>&lt;p&gt;I want to make &lt;a href=&quot;http://factorcode.org/&quot;&gt;Factor&lt;/a&gt; inline input possible with CJK languages such as Japanese. So, I’m modifying it. However, I’ve got stuck.&lt;/p&gt;
 
 &lt;p&gt;For example, I use the return key to confirm the conversion string, but I can not operate well because the key input to IM such as return passes over to Factor.&lt;/p&gt;
 
