@@ -5,7 +5,7 @@
    <link rel="alternate" href="http://www.geocities.jphttp://localhost:4000" />
    <link rel="self" href="http://www.geocities.jphttp://localhost:4000atom.xml" />
    <id>http://www.geocities.jphttp://localhost:4000</id>
-   <updated>2019-04-11T21:45:48+09:00</updated>
+   <updated>2019-04-11T22:24:46+09:00</updated>
    <author>
       <name>Kusumoto</name>
    </author>
@@ -23,12 +23,8 @@ For example, I use the return key to confirm the conversion string, but I can no
 
 &lt;p&gt;I expected the key input to be received first by the IM, and the app received the input that was not consumed, but it seems that the IM can’t receive the input unless the Factor backend sends a key-down event.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/inline-input1.png&quot; alt=&quot;inline input on a listener window&quot; /&gt;&lt;/p&gt;
-
 &lt;div style=&quot;text-align: center;&quot;&gt;
-
-
-
+&lt;img src=&quot;/images/inline-input1.png&quot; /&gt;
 &lt;/div&gt;
 
 </summary>
