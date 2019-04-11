@@ -5,8 +5,8 @@
     <link>http://www.geocities.jphttp://localhost:4000</link>
     <description>フライフィッシング番外地通信</description>
     <language>ja</language>
-    <pubDate>Thu, 11 Apr 2019 22:24:46 JST</pubDate>
-    <lastBuildDate>Thu, 11 Apr 2019 22:24:46 JST</lastBuildDate>
+    <pubDate>Thu, 11 Apr 2019 22:34:09 JST</pubDate>
+    <lastBuildDate>Thu, 11 Apr 2019 22:34:09 JST</lastBuildDate>
     
     <item>
       <title>Factor Inline Input 1</title>
@@ -14,7 +14,7 @@
       <pubDate>Thu, 11 Apr 2019 00:00:00 JST</pubDate>
       <author>http://www.geocities.jphttp://localhost:4000 (Kusumoto)</author>
       <guid>http://www.geocities.jp/2019/04/inline-input-1.html</guid>
-      <description>&lt;p&gt;I’ve got stuck.
+      <description>&lt;p&gt;I want to make Factor inline input possible in CJK language such as Japanese. However, I’ve got stuck.
 For example, I use the return key to confirm the conversion string, but I can not operate well because the key input to IM such as return passes over to Factor.&lt;/p&gt;
 
 &lt;p&gt;I expected the key input to be received first by the IM, and the app received the input that was not consumed, but it seems that the IM can’t receive the input unless the Factor backend sends a key-down event.&lt;/p&gt;
