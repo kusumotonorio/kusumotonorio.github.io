@@ -5,10 +5,34 @@
    <link rel="alternate" href="http://www.geocities.jphttp://localhost:4000" />
    <link rel="self" href="http://www.geocities.jphttp://localhost:4000atom.xml" />
    <id>http://www.geocities.jphttp://localhost:4000</id>
-   <updated>2019-04-12T07:34:55+09:00</updated>
+   <updated>2019-04-16T21:56:38+09:00</updated>
    <author>
       <name>Kusumoto</name>
    </author>
+   
+   <entry>
+     <title>Factor Inline Input 2</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2019/04/inline-input-2.html" />
+     <id>http://www.geocities.jp/2019/04/inline-input-2.html</id>
+     <updated>2019-04-16T00:00:00+09:00</updated>
+     <summary type="html">&lt;p&gt;I understood the cause of the crash of Factor IDE. As a result, inline input/conversion has become stable.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;a href=&quot;/images/factor-inline-2.mov&quot;&gt;&lt;img src=&quot;/images/factor-inline-2.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Click this image to see a video of the conversion.&lt;/p&gt;
+
+&lt;p&gt;I have made progress towards completion, but the current implementation lacks a very large one.&lt;/p&gt;
+
+&lt;p&gt;Inline conversion uses the underline display to tell the user the target area of the conversion operation and the break of the conversion unit. For now, there is no such feedback.&lt;/p&gt;
+
+&lt;p&gt;The current factor does not have the function to display the underline. I must think about how to realize the function.&lt;/p&gt;
+</summary>
+   </entry>
    
    <entry>
      <title>Factor Inline Input 1</title>
@@ -75,24 +99,6 @@
 　&lt;br /&gt;
 　&lt;br /&gt;
 　平成三十一年　元旦&lt;/p&gt;</summary>
-   </entry>
-   
-   <entry>
-     <title>結婚しました</title>
-     <author>
-       <name>Kusumoto</name>
-     </author>
-     <link href="http://www.geocities.jp/2018/12/Just-Married.html" />
-     <id>http://www.geocities.jp/2018/12/Just-Married.html</id>
-     <updated>2018-12-03T00:00:00+09:00</updated>
-     <summary type="html">&lt;p&gt;　&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/images/1543840996495s181203.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
-　&lt;/p&gt;
-&lt;p&gt;　&lt;br /&gt;
-私たち このたび結婚いたしました。&lt;br /&gt;
-これからはふたりで助け合いながら温かい家庭を築きあげたいと思います。&lt;br /&gt;
-今後ともよろしくお願い申し上げます。&lt;/p&gt;
-&lt;p&gt;　平成三十年十二月三日&lt;/p&gt;</summary>
    </entry>
    
 </feed>
