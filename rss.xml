@@ -5,8 +5,8 @@
     <link>http://www.geocities.jphttp://localhost:4000</link>
     <description>フライフィッシング番外地通信</description>
     <language>ja</language>
-    <pubDate>Tue, 16 Apr 2019 21:56:38 JST</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2019 21:56:38 JST</lastBuildDate>
+    <pubDate>Tue, 16 Apr 2019 22:17:34 JST</pubDate>
+    <lastBuildDate>Tue, 16 Apr 2019 22:17:34 JST</lastBuildDate>
     
     <item>
       <title>Factor Inline Input 2</title>
@@ -14,7 +14,7 @@
       <pubDate>Tue, 16 Apr 2019 00:00:00 JST</pubDate>
       <author>http://www.geocities.jphttp://localhost:4000 (Kusumoto)</author>
       <guid>http://www.geocities.jp/2019/04/inline-input-2.html</guid>
-      <description>&lt;p&gt;I understood the cause of the crash of Factor IDE. As a result, inline input/conversion has become stable.&lt;/p&gt;
+      <description>&lt;p&gt;The inline input/conversion has become stable because I understood the cause of the crash of Factor IDE.&lt;/p&gt;
 
 &lt;div style=&quot;text-align: center;&quot;&gt;
 &lt;a href=&quot;/images/factor-inline-2.mov&quot;&gt;&lt;img src=&quot;/images/factor-inline-2.png&quot; /&gt;&lt;/a&gt;
