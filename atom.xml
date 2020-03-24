@@ -5,10 +5,27 @@
    <link rel="alternate" href="http://www.geocities.jphttp://localhost:4000" />
    <link rel="self" href="http://www.geocities.jphttp://localhost:4000atom.xml" />
    <id>http://www.geocities.jphttp://localhost:4000</id>
-   <updated>2019-07-11T20:54:16+09:00</updated>
+   <updated>2020-03-24T22:00:32+09:00</updated>
    <author>
       <name>Kusumoto</name>
    </author>
+   
+   <entry>
+     <title>５００冊に到達</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2020/03/500books.html" />
+     <id>http://www.geocities.jp/2020/03/500books.html</id>
+     <updated>2020-03-24T00:00:00+09:00</updated>
+     <summary type="html">&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;a href=&quot;/images/factor-inline-3.mov&quot;&gt;&lt;img src=&quot;/images/2020-03-24.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;デジタル・ライブラリの蔵書がやっと５００冊に到達。自炊は主に文庫や新書サイズのものが主になって、やってもやっても空間の節約になっている実感がわかない。&lt;/p&gt;
+
+</summary>
+   </entry>
    
    <entry>
      <title>Factor Inline Input 3</title>
@@ -85,19 +102,6 @@
      <summary type="html">&lt;p&gt;Yahoo!ジオシティーズのサービスが&lt;a href=&quot;https://info-geocities.yahoo.co.jp/close/index.html&quot;&gt;３月末に終了&lt;/a&gt;してしまうので、当ブログの引越しをします。最近はほとんど更新していない状態で、移転してまで続ける必要があるのかと言われれば、まぁない訳だけど、そのうち気が変わって更新頻度が上がるかもしれんし。&lt;/p&gt;
 &lt;p&gt;有料のサーバ契約すると小遣い減るし、無料で広告いっぱい出るのも嫌だしと悩んだ末、&lt;a href=&quot;https://github.co.jp&quot;&gt;GitHub&lt;/a&gt; に（只で）間借りさせてもらうことにした。&lt;/p&gt;
 &lt;p&gt;ブログの新しいアドレスは、&lt;a href=&quot;https://kusumotonorio.github.io&quot;&gt;https://kusumotonorio.github.io&lt;/a&gt; の予定です。気が向いたら覗いてやってください。&lt;/p&gt;</summary>
-   </entry>
-   
-   <entry>
-     <title>断捨離的ＯＳバージョンアップ・インストール</title>
-     <author>
-       <name>Kusumoto</name>
-     </author>
-     <link href="http://www.geocities.jp/2019/01/mojave.html" />
-     <id>http://www.geocities.jp/2019/01/mojave.html</id>
-     <updated>2019-01-04T00:00:00+09:00</updated>
-     <summary type="html">&lt;p&gt;暫くブログの更新をサボっていたら、いつの間にか &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; が正常に動かなくなっており、ブログが書けなかった。アップデートで Ruby 環境が変わったのが原因らしい。いろいろやって結局直せなかったので、これを機会に最新の MacOS Mojave (10.14.2）にＯＳを入れ替えて、そこに Jekyll を入れることにした。&lt;/p&gt;
-&lt;p&gt;長年かけて溜まった、使わなくなったアプリ、設定やデータを新環境に出来るだけ持ってこない様にして、新年からスッキリを目指す。メールをはじめ各アプリのデータの移行、操作環境の再現などに一週間ほどかかったが、大体出来た様だ。前の環境からアプリを持ってきても、Mojave で動かないものも結構ある。Emacs が一番苦労した（終わってないけど）。&lt;/p&gt;
-&lt;p&gt;更新前は Jekyll にプラグインによる機能拡張を可能にする &lt;a href=&quot;https://github.com/rfelix/jekyll_ext&quot;&gt;jekyll_ext&lt;/a&gt;（ejekyll）を使っていたけども、後に Jekyll 自体が機能拡張機構を持つ様になって、もう jekyll_ext はメンテされていないみたいだ。jekyll_ext で使っていたプラグインと同じことを Jekyll のプラグインで行うにはもっと勉強が必要になるので、ハードルを下げて最低限の動作で妥協。なんとか新年挨拶の更新までに間に合った。&lt;/p&gt;</summary>
    </entry>
    
 </feed>
