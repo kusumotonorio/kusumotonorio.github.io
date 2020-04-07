@@ -5,10 +5,31 @@
    <link rel="alternate" href="http://www.geocities.jphttp://localhost:4000" />
    <link rel="self" href="http://www.geocities.jphttp://localhost:4000atom.xml" />
    <id>http://www.geocities.jphttp://localhost:4000</id>
-   <updated>2020-03-25T07:37:24+09:00</updated>
+   <updated>2020-04-07T20:45:18+09:00</updated>
    <author>
       <name>Kusumoto</name>
    </author>
+   
+   <entry>
+     <title>永遠のカーティス・クリーク</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2020/04/The-eternal-Curtis-Creek.html" />
+     <id>http://www.geocities.jp/2020/04/The-eternal-Curtis-Creek.html</id>
+     <updated>2020-04-07T00:00:00+09:00</updated>
+     <summary type="html">&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/images/2020-04-07.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;「そういえば、あの人は最近どうしてるんだろうか」と検索したら、またしても寂しくなる情報が表示された。田渕義雄さんの訃報である。&lt;/p&gt;
+
+&lt;p&gt;少し山に登っていた高校生の頃から、ずっとこの人の文章に触れてきた。そしてこの人の本でフライ・フィッシングを学んだ。その本に書かれれていることはその時点で既にフライ・フィッシング技術の最新トレンドからみると時代遅れだったかもしれないが、難しいことは出来ない不器用な自分には、この本や芦沢一洋氏の『ベストフライフィッシング』が教科書だった。（そして、今でもそのままだ。）&lt;/p&gt;
+
+&lt;p&gt;アウトドアについてにしろ、釣りについてにしろ、技術的なことも参考になったが、この人の生きるスタイルに惹かれていた。田渕さんの文章に「たかが釣りのために……ときみは思うかもしれない。しかしきみだって、たかが死んでいくまでの１日を、今日もきみなりにヒマつぶししたにすぎないじゃないか。」というのがあって、それを時々思い出した。釣りの本にこんなこと書く人はそうそう居ないだろう。もちろん、命を軽んじて言ったのではなく、一生懸命生きた人の言葉だからこそ素敵に響く。もう死ぬまでの暇つぶしではなくなったけど、きっとあの世でも楽しい釣りをしてるに違いない。&lt;/p&gt;
+
+</summary>
+   </entry>
    
    <entry>
      <title>５００冊に到達</title>
@@ -89,19 +110,6 @@
 &lt;/div&gt;
 
 </summary>
-   </entry>
-   
-   <entry>
-     <title>ブログの引越し</title>
-     <author>
-       <name>Kusumoto</name>
-     </author>
-     <link href="http://www.geocities.jp/2019/02/Moving-from-giocities.html" />
-     <id>http://www.geocities.jp/2019/02/Moving-from-giocities.html</id>
-     <updated>2019-02-22T00:00:00+09:00</updated>
-     <summary type="html">&lt;p&gt;Yahoo!ジオシティーズのサービスが&lt;a href=&quot;https://info-geocities.yahoo.co.jp/close/index.html&quot;&gt;３月末に終了&lt;/a&gt;してしまうので、当ブログの引越しをします。最近はほとんど更新していない状態で、移転してまで続ける必要があるのかと言われれば、まぁない訳だけど、そのうち気が変わって更新頻度が上がるかもしれんし。&lt;/p&gt;
-&lt;p&gt;有料のサーバ契約すると小遣い減るし、無料で広告いっぱい出るのも嫌だしと悩んだ末、&lt;a href=&quot;https://github.co.jp&quot;&gt;GitHub&lt;/a&gt; に（只で）間借りさせてもらうことにした。&lt;/p&gt;
-&lt;p&gt;ブログの新しいアドレスは、&lt;a href=&quot;https://kusumotonorio.github.io&quot;&gt;https://kusumotonorio.github.io&lt;/a&gt; の予定です。気が向いたら覗いてやってください。&lt;/p&gt;</summary>
    </entry>
    
 </feed>
