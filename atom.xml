@@ -5,10 +5,27 @@
    <link rel="alternate" href="http://www.geocities.jphttp://localhost:4000" />
    <link rel="self" href="http://www.geocities.jphttp://localhost:4000atom.xml" />
    <id>http://www.geocities.jphttp://localhost:4000</id>
-   <updated>2020-04-07T20:45:18+09:00</updated>
+   <updated>2020-11-21T22:09:20+09:00</updated>
    <author>
       <name>Kusumoto</name>
    </author>
+   
+   <entry>
+     <title>千冊に到達</title>
+     <author>
+       <name>Kusumoto</name>
+     </author>
+     <link href="http://www.geocities.jp/2020/11/1000books.html" />
+     <id>http://www.geocities.jp/2020/11/1000books.html</id>
+     <updated>2020-11-10T00:00:00+09:00</updated>
+     <summary type="html">&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/images/2020-11-10.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;６００冊程度で蔵書が尽きて、デジタル・ライブラリは打ち止めになると思っていたが、多くの会社の本も引き取ることになり、作業が終わらない。とうとう千冊を突破することになった。本を読む時間がとれない。&lt;/p&gt;
+
+</summary>
+   </entry>
    
    <entry>
      <title>永遠のカーティス・クリーク</title>
@@ -88,27 +105,6 @@
 &lt;p&gt;Inline conversion uses the underline display to tell the user the target area of the conversion operation and the break of the conversion unit. For now, there is no such feedback.&lt;/p&gt;
 
 &lt;p&gt;The current factor does not have the function to display the underline. I must think about how to enable the function.&lt;/p&gt;
-</summary>
-   </entry>
-   
-   <entry>
-     <title>Factor Inline Input 1</title>
-     <author>
-       <name>Kusumoto</name>
-     </author>
-     <link href="http://www.geocities.jp/2019/04/inline-input-1.html" />
-     <id>http://www.geocities.jp/2019/04/inline-input-1.html</id>
-     <updated>2019-04-11T00:00:00+09:00</updated>
-     <summary type="html">&lt;p&gt;I want to make &lt;a href=&quot;http://factorcode.org/&quot;&gt;Factor&lt;/a&gt; inline input possible with CJK languages such as Japanese. So, I’m modifying it. However, I’ve got stuck.&lt;/p&gt;
-
-&lt;p&gt;For example, I use the return key to confirm the conversion string, but I can not operate well because the key input to IM such as return passes over to Factor.&lt;/p&gt;
-
-&lt;p&gt;I expected the key input to be received first by the IM, and the app received the input that was not consumed, but it seems that the IM can’t receive the input unless the Factor backend sends a key-down event.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-&lt;img src=&quot;/images/inline-input1.png&quot; /&gt;
-&lt;/div&gt;
-
 </summary>
    </entry>
    

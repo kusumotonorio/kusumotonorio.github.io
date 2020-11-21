@@ -5,8 +5,23 @@
     <link>http://www.geocities.jphttp://localhost:4000</link>
     <description>フライフィッシング番外地通信</description>
     <language>ja</language>
-    <pubDate>Tue, 07 Apr 2020 20:45:18 JST</pubDate>
-    <lastBuildDate>Tue, 07 Apr 2020 20:45:18 JST</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2020 22:09:20 JST</pubDate>
+    <lastBuildDate>Sat, 21 Nov 2020 22:09:20 JST</lastBuildDate>
+    
+    <item>
+      <title>千冊に到達</title>
+      <link>http://www.geocities.jp/2020/11/1000books.html</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 JST</pubDate>
+      <author>http://www.geocities.jphttp://localhost:4000 (Kusumoto)</author>
+      <guid>http://www.geocities.jp/2020/11/1000books.html</guid>
+      <description>&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/images/2020-11-10.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;６００冊程度で蔵書が尽きて、デジタル・ライブラリは打ち止めになると思っていたが、多くの会社の本も引き取ることになり、作業が終わらない。とうとう千冊を突破することになった。本を読む時間がとれない。&lt;/p&gt;
+
+</description>
+    </item>
     
     <item>
       <title>永遠のカーティス・クリーク</title>
@@ -78,25 +93,6 @@
 &lt;p&gt;Inline conversion uses the underline display to tell the user the target area of the conversion operation and the break of the conversion unit. For now, there is no such feedback.&lt;/p&gt;
 
 &lt;p&gt;The current factor does not have the function to display the underline. I must think about how to enable the function.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Factor Inline Input 1</title>
-      <link>http://www.geocities.jp/2019/04/inline-input-1.html</link>
-      <pubDate>Thu, 11 Apr 2019 00:00:00 JST</pubDate>
-      <author>http://www.geocities.jphttp://localhost:4000 (Kusumoto)</author>
-      <guid>http://www.geocities.jp/2019/04/inline-input-1.html</guid>
-      <description>&lt;p&gt;I want to make &lt;a href=&quot;http://factorcode.org/&quot;&gt;Factor&lt;/a&gt; inline input possible with CJK languages such as Japanese. So, I’m modifying it. However, I’ve got stuck.&lt;/p&gt;
-
-&lt;p&gt;For example, I use the return key to confirm the conversion string, but I can not operate well because the key input to IM such as return passes over to Factor.&lt;/p&gt;
-
-&lt;p&gt;I expected the key input to be received first by the IM, and the app received the input that was not consumed, but it seems that the IM can’t receive the input unless the Factor backend sends a key-down event.&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center;&quot;&gt;
-&lt;img src=&quot;/images/inline-input1.png&quot; /&gt;
-&lt;/div&gt;
-
 </description>
     </item>
     
