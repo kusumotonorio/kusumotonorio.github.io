@@ -6,7 +6,16 @@
     <description>Recent content in COMPUTER on Kusumoto&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kusumotonorio.github.io/categories/COMPUTER/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kusumotonorio.github.io/categories/COMPUTER/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, Hugo!</title>
+      <link>https://kusumotonorio.github.io/2023/01/hello_hugo.html</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2023/01/hello_hugo.html</guid>
+      <description>ブログを Jekyll で更新していたが、OS のアップデートで Ruby 周りを更新されると Jekyll がまともに動かなくなってしまうということが度々起きた。直すのはなかなか面倒なので、そのうち Hugo に移行しようと思いながら時間が経ってしまった。この正月休みの残り一日で何しようかなと考えて、重い腰を上げることに。</description>
+    </item>
+    
     <item>
       <title>千冊に到達</title>
       <link>https://kusumotonorio.github.io/2020/11/1000books.html</link>
@@ -794,15 +803,6 @@ rsync -vru ~/Documents/myblog/ /Volumes/user-name/Sites/your-blog-dir/
 また、URLの制御については、設定で解決可能だということが分かった。
 こうなると、Movable Typeへ移行したのは早まったかなぁ、と思わないでもない。
 あとは、『実体参照』の件だが、HTMLの仕様に違反している訳じゃないので、変更してくれるかどうか…　これでアジア圏のユーザが増えてフィードバックが増えると、さらに良くなっていく可能性も。期待してます。　</description>
-    </item>
-    
-    <item>
-      <title>Hello, Hugo!</title>
-      <link>https://kusumotonorio.github.io/1/01/hello_hugo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kusumotonorio.github.io/1/01/hello_hugo.html</guid>
-      <description>ブログを Jekyll で更新していたが、OS のアップデートで Ruby 周りを更新されると Jekyll がまともに動かなくなってしまうということが度々起きた。直すのはなかなか面倒なので、そのうち Hugo に移行しようと思いながら時間が経ってしまった。この正月休みの残り一日で何しようかなと考えて、重い腰を上げることに。</description>
     </item>
     
   </channel>

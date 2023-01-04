@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kusumotonorio.github.io/categories.html</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/categories/COMPUTER.html</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kusumotonorio.github.io/categories/EVERYDAY-LIFE.html</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <loc>https://kusumotonorio.github.io/2023/01/hello_hugo.html</loc>
+    <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/post.html</loc>
+    <lastmod>2023-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kusumotonorio.github.io/categories/EVERYDAY-LIFE.html</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/2020/11/1000books.html</loc>
@@ -1845,8 +1848,6 @@
     <lastmod>2003-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/archives.html</loc>
-  </url><url>
-    <loc>https://kusumotonorio.github.io/1/01/hello_hugo.html</loc>
   </url><url>
     <loc>https://kusumotonorio.github.io/tags.html</loc>
   </url>

@@ -56,6 +56,29 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2004/08/post0831.html" rel="bookmark">
+			トラックバック・ピープルを簡単に
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2004-08-31T00:00:00Z">2004-08-31</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		このブログはローカルでMTを走らせ、出来たページを.Macにアップしているためピンを受けられず、今までトラックバックに縁が無かった。けれどもBlogpeopleがトラックバックを活用したサービス、『トラックバック・ピープル』を開始したので、使ってみたくなった。
+同じ様なブログ運営になるiBlogのあるユーザの方が、Mac OS X 用にPingTrackbackというトラックバックためのアプリを公開してくれていて、これを使うとトラックバック・ピープルにもトラックバック出来る。ただ、PingTrackbackはiBlogで作成したページと連動する様に出来ているので、基本機能は使えるが美味しいところが使えない。それと、トラックバック・ピープルのために使うことを考えると、トラックバック先のURLを毎回入力するのが面倒だ。
+そこで自分で専用アプリを作ることを考えたが、面倒だし、いつ完成するやら分からない。トラックバックの仕様を見てみたら、ブラウザからフォームをポストするだけでトラックバック出来ることが分かった。それならアプリを作らなくても、CGIを作る程度でトラックバック用ツールが出来る。ローカルでMTを動かしているので既にwebサーバーが動いていて、CGIも使える様になっている。挑戦してみることにした。
+Pythonで書いたCGIはいろいろまずいところが残っていて、Safariでしかうまく動かないみたいだ。
+自分の環境やブログに合わせて手直しをして、拡張子をcgiに変更。CGIとして起動出来るディレクトリに移動し、起動出来る様にフラグを立てる。
+このCGIで表示されたページの最後にあるブックマークレットを登録して使うと、入力の手間が省ける。トラックバックしたいエントリのページを表示して、概要に入力したい文章を選択しておいてブックマークレットを選ぶ。
+トラックバック・ピープルのリストがプログラムに埋め込まれていたりとイマイチの出来だが、とりあえず自分で使うにはこれで良いかなと。こんな感じで出来るので、もっと良いツールを作って公開して下さいね。
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2004/06/post0617.html" rel="bookmark">
 			掲示板、はじめました
 			</a>
@@ -168,21 +191,6 @@ rsync -vru ~/Documents/myblog/ /Volumes/user-name/Sites/your-blog-dir/
 こうなると、Movable Typeへ移行したのは早まったかなぁ、と思わないでもない。
 あとは、『実体参照』の件だが、HTMLの仕様に違反している訳じゃないので、変更してくれるかどうか…　これでアジア圏のユーザが増えてフィードバックが増えると、さらに良くなっていく可能性も。期待してます。　
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/1/01/hello_hugo.html" rel="bookmark">
-			Hello, Hugo!
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		ブログを Jekyll で更新していたが、OS のアップデートで Ruby 周りを更新されると Jekyll がまともに動かなくなってしまうということが度々起きた。直すのはなかなか面倒なので、そのうち Hugo に移行しようと思いながら時間が経ってしまった。この正月休みの残り一日で何しようかなと考えて、重い腰を上げることに。
-	</div>
 </article>
 </main>
 
@@ -206,11 +214,11 @@ rsync -vru ~/Documents/myblog/ /Volumes/user-name/Sites/your-blog-dir/
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2023/01/hello_hugo.html">Hello, Hugo!</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/11/1000books.html">千冊に到達</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/04/The-eternal-Curtis-Creek.html">永遠のカーティス・クリーク</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/03/500books.html">５００冊に到達</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2019/05/inline-input-3.html">Factor Inline Input 3</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2019/04/inline-input-2.html">Factor Inline Input 2</a></li>
 		</ul>
 	</div>
 </div>

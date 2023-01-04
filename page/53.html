@@ -55,6 +55,29 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2004/08/post0831.html" rel="bookmark">
+			トラックバック・ピープルを簡単に
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2004-08-31T00:00:00Z">2004-08-31</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		このブログはローカルでMTを走らせ、出来たページを.Macにアップしているためピンを受けられず、今までトラックバックに縁が無かった。けれどもBlogpeopleがトラックバックを活用したサービス、『トラックバック・ピープル』を開始したので、使ってみたくなった。
+同じ様なブログ運営になるiBlogのあるユーザの方が、Mac OS X 用にPingTrackbackというトラックバックためのアプリを公開してくれていて、これを使うとトラックバック・ピープルにもトラックバック出来る。ただ、PingTrackbackはiBlogで作成したページと連動する様に出来ているので、基本機能は使えるが美味しいところが使えない。それと、トラックバック・ピープルのために使うことを考えると、トラックバック先のURLを毎回入力するのが面倒だ。
+そこで自分で専用アプリを作ることを考えたが、面倒だし、いつ完成するやら分からない。トラックバックの仕様を見てみたら、ブラウザからフォームをポストするだけでトラックバック出来ることが分かった。それならアプリを作らなくても、CGIを作る程度でトラックバック用ツールが出来る。ローカルでMTを動かしているので既にwebサーバーが動いていて、CGIも使える様になっている。挑戦してみることにした。
+Pythonで書いたCGIはいろいろまずいところが残っていて、Safariでしかうまく動かないみたいだ。
+自分の環境やブログに合わせて手直しをして、拡張子をcgiに変更。CGIとして起動出来るディレクトリに移動し、起動出来る様にフラグを立てる。
+このCGIで表示されたページの最後にあるブックマークレットを登録して使うと、入力の手間が省ける。トラックバックしたいエントリのページを表示して、概要に入力したい文章を選択しておいてブックマークレットを選ぶ。
+トラックバック・ピープルのリストがプログラムに埋め込まれていたりとイマイチの出来だが、とりあえず自分で使うにはこれで良いかなと。こんな感じで出来るので、もっと良いツールを作って公開して下さいね。
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2004/08/post0826.html" rel="bookmark">
 			アマチュア・ロッド・リビルダー
 			</a>
@@ -266,30 +289,6 @@ Shimaneさんの後ろ姿
 Shimaneさんは、きちんと『尺』の結果を出していた。お見事。
 （続く）
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2004/07/post0726.html" rel="bookmark">
-			岩手釣行３　悲しき雨音
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2004-07-26T00:00:00Z">2004-07-26</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/FLY-FISHING.html" rel="category">FLY-FISHING</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		（続き）
-渓流釣りは早朝に行うのがセオリーなのだが、日帰りのときは９時頃に家を出るし、泊まりのときも山の宿の夜は涼しく、いつのも寝苦しい熱帯夜から解放されて熟睡してしまい、結局朝はゆっくりというのがいつもの私のパターンだ。しかし今回は前日のショックが効いていた様で、珍しく６時に目が覚めた。同じポイントでやり直すつもりだったのだが −−
-眠るときには上がっていた雨が降っている。川の様子を見に行くと濁りが入り水位も上がっている。慌てて準備して近い場所に入るがだんだん濁りがひどくなり、勝手が分からない川なので釣りを断念して引き上げた。結局その後もこの川で釣りが出来る様にはならず、『やり直し』は今度岩手を訪れるまでお預けとなった。
-支流に入って釣果を上げた地元の坂本さんと神奈川から来たTakadaさんが合流。坂本さんが入った支流に向かうが、濁り、水位共に厳しく、雨の影響が少ないと思われる他の支流に向かう。
-ヤマメ
-支流は川幅が狭いことと増水で狙えるポイントが限られることから、前日の様な『訳の分からなさ』は感じなかったものの苦戦は相変わらずで、「自分の腕でも岩手に行けば」などという想いは完全に打ち砕かれていった。
-釣り終わって工房へ引き上げ
-（続く）
-	</div>
 </article>
 </main>
 
@@ -313,11 +312,11 @@ Shimaneさんは、きちんと『尺』の結果を出していた。お見事�
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2023/01/hello_hugo.html">Hello, Hugo!</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/11/1000books.html">千冊に到達</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/04/The-eternal-Curtis-Creek.html">永遠のカーティス・クリーク</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/03/500books.html">５００冊に到達</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2019/05/inline-input-3.html">Factor Inline Input 3</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2019/04/inline-input-2.html">Factor Inline Input 2</a></li>
 		</ul>
 	</div>
 </div>

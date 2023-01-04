@@ -56,6 +56,31 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2010/01/post_146.html" rel="bookmark">
+			暫定的解決
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2010-01-04T00:00:00Z">2010-01-04</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>, <a class="meta__link" href="/categories/PHOTOGRAPH.html" rel="category">PHOTOGRAPH</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		LUMIX DMC-GF1 / LUMIX G 20mm F1.7 ASPH.
+Snow Leopard 環境で今までの様なブログ更新環境を維持するために悪戦苦闘していたが、一応それが出来そうである。
+自前で Movable Type を立ち上げ、ローカルの静的ファイルを他のサーバーにアップロードするという変則的な運用をしている。Movable Type のバージョンは 3.34 で、データ保存方式は Berkeley DB。この 3.34 と Snow Leopard 環境の XML-RPC 絡みの相性が悪いらしくて、ecto 等のブログ・エディタでデータを送受信する際にエラーが出てしまう。
+これには、Snow Leopard に入っている Perl のバージョンが今までのものより新しいことが関係している様だ。/usr/bin を見ると、Snow Leopard には 5.10.0 と 5.8.9 の、２バージョンの perl が入っていた。CGI を少しでも古い方の 5.8.9 で動かすために MT の各 cgi ファイルの先頭行を
+#!/usr/bin/perl -w
+から
+#!/usr/bin/perl5.8.9 -w
+に書き換える。これでブログ・エディタが Movable Type からデータを取り出す方はエラーが起きなくなったが、アップロード時は駄目だった。
+データが壊れてしまうので Snow Leopard では使用するなという Mac 用ブログ・エディタがあることからして、どうやら Snow Leopard で XML-RPC か シリアライズ関連の API の動きが変ったらしい。そこで、Java で書かれたジャストシステムの xfy Blog Editor の無償版を使ってみたら、送信も出来た。
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2010/01/snow_leopard.html" rel="bookmark">
 			寅年から Snow Leopard
 			</a>
@@ -226,25 +251,6 @@ Flickr は米Yahoo! が買収した写真共有サービスサイトで、（中
 キヤノン販売がMacintosh を（無理矢理）日本語化したDynaMac には、エルゴソフトの EgBridge が付いて来た。当時の EgBridge は IM（昔風に言うと FEP、Windows 風に言うと IME）ではなく、純正の漢字Talkに先んじた「日本語化ツール」であった。それ以来 EgBridge は、日本語ワープロソフト EgWord と共にバージョンアップを繰り返して Mac OS X の時代となった今まで生き残ってきたが、とうとう表舞台から去る日が訪れた。
 大きな OS の変更が行われると IM が不安定動作の原因になったりするので、誤変換率No.1の純正 IM「ことえり」を泣く泣く使う様になったが、 EgBridge や EgWord には長らく世話になった。物好きで捻くれ者の Macユーザーを支え続けたソフトたち、お疲れ様でした。
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2008/01/nikon_coolscan_v_ed_1.html" rel="bookmark">
-			Nikon COOLSCAN V ED　（２）
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2008-01-20T00:00:00Z">2008-01-20</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>, <a class="meta__link" href="/categories/PHOTOGRAPH.html" rel="category">PHOTOGRAPH</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		今はもう解決した（ような気がする）問題なのだが、COOLSCAN V EDでフィルムを読み取り、Digital ICE (傷／埃取り)を掛けると、薄い線が現れることがあった。掛ける前の画像には無いのだが。
-最初は「何だこれ？　Digital ICE と相性が悪い画像なのかな」と思ったが、複数の画像で同じ様な線が入るので、「まさか、スキャナーの中に埃か何か入っているんじゃないだろうな。埃にしてはフィルムのコマに対して大き過ぎる。レンズについているのか？」とストリップフィルムアダプタを抜き取ってみると、「って、本当にあるよ……」。読み取り窓部分に白っぽくて細い髪の毛みたいなものがビヨーンと出ている。
-引っ張ってみたら、プチッと切れた。髪の毛にしてはちょっと脆過ぎる気もする。筐体が細く削れたものの様な…。まあ、深く追求しないことにした。その後は上手く読めているみたい。
-	</div>
 </article>
 </main>
 
@@ -269,11 +275,11 @@ Flickr は米Yahoo! が買収した写真共有サービスサイトで、（中
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2023/01/hello_hugo.html">Hello, Hugo!</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/11/1000books.html">千冊に到達</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/04/The-eternal-Curtis-Creek.html">永遠のカーティス・クリーク</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/03/500books.html">５００冊に到達</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2019/05/inline-input-3.html">Factor Inline Input 3</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2019/04/inline-input-2.html">Factor Inline Input 2</a></li>
 		</ul>
 	</div>
 </div>

@@ -6,7 +6,16 @@
     <description>Recent content on Kusumoto&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kusumotonorio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kusumotonorio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, Hugo!</title>
+      <link>https://kusumotonorio.github.io/2023/01/hello_hugo.html</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2023/01/hello_hugo.html</guid>
+      <description>ブログを Jekyll で更新していたが、OS のアップデートで Ruby 周りを更新されると Jekyll がまともに動かなくなってしまうということが度々起きた。直すのはなかなか面倒なので、そのうち Hugo に移行しようと思いながら時間が経ってしまった。この正月休みの残り一日で何しようかなと考えて、重い腰を上げることに。</description>
+    </item>
+    
     <item>
       <title>千冊に到達</title>
       <link>https://kusumotonorio.github.io/2020/11/1000books.html</link>
@@ -7295,15 +7304,6 @@ FIPS・Mouche第２２回国際大会（Championnat　du　MONDE）　Team Japan
 このロッドで釣った最初の魚（イワナ）
 基本は前作と同じKawagarasu工法 。ただし今回は六角には削らずに四角のままにした。パワーファイバーを多く残して高反発ロッドを目指したのだが、細身になってピスが少ないことがこの竿の性格に大きく影響しているようで、グリップの中まで曲がり込む。最初に近くの公園で振ってみると、ループがまともに出来ない。また変なものを作ってしまったなと落ち込む。
 しかし折って捨てるという気にもなれないし、半ば仕方なく釣りに使ってみると割と使えるではないかという気になってきた。キャスティング時に手に伝わる感触が、メル爺様の「ゥワンプ！」という感じ。中毒性があるのか、これに慣れてきてしまうと今度は他のロッドを振ると妙な感じがする様になってしまった。ひょっとすると、今まで感じられなかったロッドの声が聞こえる様になったのかもしれない。だと良いのだが…</description>
-    </item>
-    
-    <item>
-      <title>Hello, Hugo!</title>
-      <link>https://kusumotonorio.github.io/1/01/hello_hugo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kusumotonorio.github.io/1/01/hello_hugo.html</guid>
-      <description>ブログを Jekyll で更新していたが、OS のアップデートで Ruby 周りを更新されると Jekyll がまともに動かなくなってしまうということが度々起きた。直すのはなかなか面倒なので、そのうち Hugo に移行しようと思いながら時間が経ってしまった。この正月休みの残り一日で何しようかなと考えて、重い腰を上げることに。</description>
     </item>
     
   </channel>
