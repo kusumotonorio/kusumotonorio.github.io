@@ -796,5 +796,14 @@ rsync -vru ~/Documents/myblog/ /Volumes/user-name/Sites/your-blog-dir/
 あとは、『実体参照』の件だが、HTMLの仕様に違反している訳じゃないので、変更してくれるかどうか…　これでアジア圏のユーザが増えてフィードバックが増えると、さらに良くなっていく可能性も。期待してます。　</description>
     </item>
     
+    <item>
+      <title>Hello, Hugo!</title>
+      <link>https://kusumotonorio.github.io/1/01/hello_hugo.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/1/01/hello_hugo.html</guid>
+      <description>ブログを Jekyll で更新していたが、OS のアップデートで Ruby 周りを更新されると Jekyll がまともに動かなくなってしまうということが度々起きた。直すのはなかなか面倒なので、そのうち Hugo に移行しようと思いながら時間が経ってしまった。この正月休みの残り一日で何しようかなと考えて、重い腰を上げることに。</description>
+    </item>
+    
   </channel>
 </rss>
