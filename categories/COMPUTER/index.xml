@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COMPUTER on Kusumoto&#39;s Blog</title>
+    <link>https://kusumotonorio.github.io/categories/COMPUTER.html</link>
+    <description>Recent content in COMPUTER on Kusumoto&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kusumotonorio.github.io/categories/COMPUTER/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>千冊に到達</title>
+      <link>https://kusumotonorio.github.io/2020/11/1000books.html</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2020/11/1000books.html</guid>
+      <description>６００冊程度で蔵書が尽きて、デジタル・ライブラリは打ち止めになると思っていたが、多くの会社の本も引き取ることになり、作業が終わらない。とうとう千冊を突破することになった。本を読む時間がとれない。</description>
+    </item>
+    
+    <item>
+      <title>５００冊に到達</title>
+      <link>https://kusumotonorio.github.io/2020/03/500books.html</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2020/03/500books.html</guid>
+      <description>デジタル・ライブラリの蔵書がやっと５００冊に到達。自炊は文庫や新書サイズのものが主になって、やってもやっても空間の節約になっている実感がわかない。</description>
+    </item>
+    
+    <item>
+      <title>Factor Inline Input 3</title>
+      <link>https://kusumotonorio.github.io/2019/05/inline-input-3.html</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2019/05/inline-input-3.html</guid>
+      <description>It is now possible to display underlines during inline Japanese conversion. I have made several other improvements and believe that I have achieved my goal.
+Click the image above to see a video of the conversion and input.</description>
+    </item>
+    
+    <item>
+      <title>Factor Inline Input 2</title>
+      <link>https://kusumotonorio.github.io/2019/04/inline-input-2.html</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2019/04/inline-input-2.html</guid>
+      <description>The inline input/conversion has become stable because I understood the cause of the crash of Factor IDE.
+Click this image to see a video of the conversion.
+I have made progress towards completion, but the current implementation lacks a very large one.
+Inline conversion uses the underline display to tell the user the target area of the conversion operation and the break of the conversion unit. For now, there is no such feedback.</description>
+    </item>
+    
+    <item>
+      <title>Factor Inline Input 1</title>
+      <link>https://kusumotonorio.github.io/2019/04/inline-input-1.html</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2019/04/inline-input-1.html</guid>
+      <description>I want to make Factor inline input possible with CJK languages such as Japanese. So, I&amp;rsquo;m modifying it. However, I&amp;rsquo;ve got stuck.
+For example, I use the return key to confirm the conversion string, but I can not operate well because the key input to IM such as return passes over to Factor.
+I expected the key input to be received first by the IM, and the app received the input that was not consumed, but it seems that the IM can&amp;rsquo;t receive the input unless the Factor backend sends a key-down event.</description>
+    </item>
+    
+    <item>
+      <title>ブログの引越し</title>
+      <link>https://kusumotonorio.github.io/2019/02/Moving-from-giocities.html</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2019/02/Moving-from-giocities.html</guid>
+      <description>Yahoo!ジオシティーズのサービスが３月末に終了してしまうので、当ブログの引越しをします。最近はほとんど更新していない状態で、移転してまで続ける必要があるのかと言われれば、まぁない訳だけど、そのうち気が変わって更新頻度が上がるかもしれんし。
+有料のサーバ契約すると小遣い減るし、無料で広告いっぱい出るのも嫌だしと悩んだ末、GitHub に（只で）間借りさせてもらうことにした。
+ブログの新しいアドレスは、https://kusumotonorio.github.io の予定です。気が向いたら覗いてやってください。</description>
+    </item>
+    
+    <item>
+      <title>断捨離的ＯＳバージョンアップ・インストール</title>
+      <link>https://kusumotonorio.github.io/2019/01/mojave.html</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2019/01/mojave.html</guid>
+      <description>暫くブログの更新をサボっていたら、いつの間にか Jekyll が正常に動かなくなっており、ブログが書けなかった。アップデートで Ruby 環境が変わったのが原因らしい。いろいろやって結局直せなかったので、これを機会に最新の MacOS Mojave (10.14.2）にＯＳを入れ替えて、そこに Jekyll を入れることにした。
+長年かけて溜まった、使わなくなったアプリ、設定やデータを新環境に出来るだけ持ってこない様にして、新年からスッキリを目指す。メールをはじめ各アプリのデータの移行、操作環境の再現などに一週間ほどかかったが、大体出来た様だ。前の環境からアプリを持ってきても、Mojave で動かないものも結構ある。Emacs が一番苦労した（終わってないけど）。
+更新前は Jekyll にプラグインによる機能拡張を可能にする jekyll_ext（ejekyll）を使っていたけども、後に Jekyll 自体が機能拡張機構を持つ様になって、もう jekyll_ext はメンテされていないみたいだ。jekyll_ext で使っていたプラグインと同じことを Jekyll のプラグインで行うにはもっと勉強が必要になるので、ハードルを下げて最低限の動作で妥協。なんとか新年挨拶の更新までに間に合った。</description>
+    </item>
+    
+    <item>
+      <title>４００冊を通過</title>
+      <link>https://kusumotonorio.github.io/2018/08/jisui400.html</link>
+      <pubDate>Mon, 06 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2018/08/jisui400.html</guid>
+      <description>４００冊まで来た。文庫や新書サイズの本以外は、相当少なくなった。</description>
+    </item>
+    
+    <item>
+      <title>３００冊突破</title>
+      <link>https://kusumotonorio.github.io/2018/03/eBooks2.html</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2018/03/eBooks2.html</guid>
+      <description>読み込んだ本が300冊を超えて、ゴールが遥か遠くに見えるぐらいの気がしてきた。
+漫画が曲者。縦線が入ったページのやり直しで、全然進まない。</description>
+    </item>
+    
+    <item>
+      <title>自炊、道半ば</title>
+      <link>https://kusumotonorio.github.io/2017/12/eBooks.html</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2017/12/eBooks.html</guid>
+      <description>自分の持ち物を減らそうと本のスキャン、「自炊」を始めてから１０ヶ月。やっと２００冊を突破した。予定では倍はこなしているはずだったのだが、今年はいろいろあり過ぎた。
+読み込んだ本は処分しているから結構な空間が空くはず……なのだけど、空いた場所に何かがやってきて、あまり変っていない。</description>
+    </item>
+    
+    <item>
+      <title>移行完了</title>
+      <link>https://kusumotonorio.github.io/2015/03/have-moved.html</link>
+      <pubDate>Sun, 22 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2015/03/have-moved.html</guid>
+      <description>暫く新しいパソコンを使っていて特に問題無さそうなので、古いパソコンの内蔵ハードディスクを消去して、外付けの方はアップル純正のバックアップ機構、Time Machine に使用する。
+ブログ書き環境は、Jekyll を入れ直したら仕様が変っていて、カテゴリ名を大文字に書いても小文字に変換されるところでハマった。使っていたバージョンナンバーが１以下のやつとは違って Jekyll 単体でも拡張機能が利用出来る様になったらしく、今迄のことをするのに Jekyll_ext は要らないのかもしれないが、とりあえず同じ手順で出来る様にしてみる。
+セキュリティ対策をしてくれないとかアプリが動かせなくなるなどのメーカの買い替え誘導で仕方無く換えただけだが、この８年間でパソコンが速くなったのを実感。やること・出来ることがウン倍になる訳でもないが。</description>
+    </item>
+    
+    <item>
+      <title>パソコン置換え中</title>
+      <link>https://kusumotonorio.github.io/2015/02/new-pc-2015.html</link>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2015/02/new-pc-2015.html</guid>
+      <description>テスト更新。
+ただ今、８年間使用したメイン機から環境移行中。</description>
+    </item>
+    
+    <item>
+      <title>flickr の Yahoo! ナビゲーション・バーを消す</title>
+      <link>https://kusumotonorio.github.io/2013/07/no-yahoo-navi-bar.html</link>
+      <pubDate>Tue, 02 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2013/07/no-yahoo-navi-bar.html</guid>
+      <description>先日リニューアルして格好良くなった flickr が、今日からページのトップに Yahoo のナビゲーション・バーを表示する改悪を行なった。まぁ事情は分らなくもないが、そんなことをしていたら反感を買ってユーザーが離れていってしまう。「角を矯めて牛を殺す」というやつだ。
+こちら を参考にさせてもらってユーザースタイルシートを作って Safari に適用し、ナビゲーション・バーを消す。
+no-yahoo-navi-bar.css:
+&amp;lt;code class=&amp;quot;css&amp;quot;&amp;gt; body.with-eyebrow { padding-top: 49px !important; background-position: 0% 0px !important; } body.with-eyebrow #eyebrow { display: none !important; } body.with-eyebrow #global-nav { top: 0px !important; } &amp;lt;/code&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>ブログ、移転します。</title>
+      <link>https://kusumotonorio.github.io/2012/06/i-am-moving.html</link>
+      <pubDate>Sat, 30 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2012/06/i-am-moving.html</guid>
+      <description>Apple の MobileMe サービスが六月いっぱいで終了して iCloud に統合され、自分で作ったウェブ・ページを公開することが出来なくなるため、ブログを移転します。まだ移転作業中で暫く不完全な状態が続きますが、以下の場所で引き続き駄文を書いていくつもりです。
+http://www.geocities.jp/fly_kusumoto/blog/
+よろしければ、今後もお付き合いください。</description>
+    </item>
+    
+    <item>
+      <title>さよなら MobileMe</title>
+      <link>https://kusumotonorio.github.io/2012/06/good-bye-mobileme.html</link>
+      <pubDate>Sun, 24 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2012/06/good-bye-mobileme.html</guid>
+      <description>あと一週間で旧ブログを載せているサービスが終るらしいが、すぐに見えなくなるのか、編集や更新が出来なくなるけど暫くは見れるのか、よくわからない。</description>
+    </item>
+    
+    <item>
+      <title>こんにちは、Jekyll 博士</title>
+      <link>https://kusumotonorio.github.io/2011/04/jekyll.html</link>
+      <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2011/04/jekyll.html</guid>
+      <description>そもそもは Mac 上の Java が残念な所為でイマイチな Xfy Blog Editor を使う代りに Emacs でブログを書けないかと調べ始めたのだが、静的 Web サイト作成ツール Jekyll の存在を知って、OS のバージョン・アップの度に苦労させられる、２００３年から使ってきた Movable Type を止めて、 その Jekyll を使うことにした。
+Movable Type の出来が悪いということではなく、手元のコンピュータで作ったサイトのページをアドレスを差し替えて他のサーバーにアップロードするという様な開発元が想定していない使い方をしており、大規模な商用ブログサービスに使われる Movable Type と自分の使い方がバージョン・アップする度に乖離していってしまった。
+また、Xfy Blog Editor はディスコンになっているみたいだ。遅かれ早かれブログ執筆環境は変えなければならない状況だった。
+Jekyll に変更するにあたって、次のことを方針とした。
+今まで書いたエントリーを編集可能な状態で引き継ぐ 原則、今までのエントリーの URL を維持する ページのデザインは今までのテンプレートを流用して引き継ぐ 今までの機能を出来るだけ再現する 複雑になってしまったアップロードの処理を単純化する まだ試行錯誤をしているが、だいたいは目的を逹することが出来た。自分のための記録としてどの様なことをやったかを書いておこうと思うが、長くなりそうなので他が一段落してからに。</description>
+    </item>
+    
+    <item>
+      <title>超チャレンジャーな声優ユニット</title>
+      <link>https://kusumotonorio.github.io/2010/07/lisp.html</link>
+      <pubDate>Wed, 28 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2010/07/lisp.html</guid>
+      <description>・LISP OFFICIAL WEB SITE 部屋とパソコンとLISP （※注意 いきなり喋ります）
+「普通のやつらの上を行け」ということですね、わかります。とうとうプログラミング言語も、「擬人化」から「実在化」の時代に。
+・阿澄佳奈を中心とした超至近距離・声優ユニット「LISP」始動!
+まだ生まれたばかりのLISPですが、ファンの皆さんに応援していただいて、「未発達な」LISPから一歩ずつ成長していきたいと思います。応援よろしくお願いします!
+確かに、Lisp 的な…。あとは、額に「λ」と書くと良いかもね。</description>
+    </item>
+    
+    <item>
+      <title>新人さんいらっしゃい！</title>
+      <link>https://kusumotonorio.github.io/2010/05/post_161.html</link>
+      <pubDate>Sat, 29 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2010/05/post_161.html</guid>
+      <description>記念に一枚。</description>
+    </item>
+    
+    <item>
+      <title>危険な実験</title>
+      <link>https://kusumotonorio.github.io/2010/02/post_147.html</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2010/02/post_147.html</guid>
+      <description>ジャストシステムの xfy Blog Editor でブログを書くと言ってから、一度も書いていなかった。大したネタが無かったからだけれども、Mac 上での Java アプリは使っていてどうも違和感があるというのもある。
+「昆虫グミをバレンタインに贈ってみる実験」という無茶な感じの記事を読んだので「Gummix」なるものは知っていたのだが、数日前に『製品』が弁当に入っている写真が新聞に載っていて、それも嫌だなと思った。
+バレンタインに贈ってみた記者は男子を釣ることには失敗した様だが、これを魚釣りに使ってみたらどうなるのか、と気になった。フライフィッシング界では、疑似餌を人間目線でソックリにしても魚は餌だと思わないと言われている（様な気がする）。でも味、匂い付きのグミ液を使って作れば、使えそうな気がする。</description>
+    </item>
+    
+    <item>
+      <title>暫定的解決</title>
+      <link>https://kusumotonorio.github.io/2010/01/post_146.html</link>
+      <pubDate>Mon, 04 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2010/01/post_146.html</guid>
+      <description>LUMIX DMC-GF1 / LUMIX G 20mm F1.7 ASPH.
+Snow Leopard 環境で今までの様なブログ更新環境を維持するために悪戦苦闘していたが、一応それが出来そうである。
+自前で Movable Type を立ち上げ、ローカルの静的ファイルを他のサーバーにアップロードするという変則的な運用をしている。Movable Type のバージョンは 3.34 で、データ保存方式は Berkeley DB。この 3.34 と Snow Leopard 環境の XML-RPC 絡みの相性が悪いらしくて、ecto 等のブログ・エディタでデータを送受信する際にエラーが出てしまう。
+これには、Snow Leopard に入っている Perl のバージョンが今までのものより新しいことが関係している様だ。/usr/bin を見ると、Snow Leopard には 5.10.0 と 5.8.9 の、２バージョンの perl が入っていた。CGI を少しでも古い方の 5.8.9 で動かすために MT の各 cgi ファイルの先頭行を
+#!/usr/bin/perl -w
+から
+#!/usr/bin/perl5.8.9 -w
+に書き換える。これでブログ・エディタが Movable Type からデータを取り出す方はエラーが起きなくなったが、アップロード時は駄目だった。
+データが壊れてしまうので Snow Leopard では使用するなという Mac 用ブログ・エディタがあることからして、どうやら Snow Leopard で XML-RPC か シリアライズ関連の API の動きが変ったらしい。そこで、Java で書かれたジャストシステムの xfy Blog Editor の無償版を使ってみたら、送信も出来た。</description>
+    </item>
+    
+    <item>
+      <title>寅年から Snow Leopard</title>
+      <link>https://kusumotonorio.github.io/2010/01/snow_leopard.html</link>
+      <pubDate>Sun, 03 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2010/01/snow_leopard.html</guid>
+      <description>この年末年始の休みを利用して、OS のバージョンアップを行うことにした。
+今まで Tiger (10.4) を使い続けてきたが、二世代前のバージョンなので、最近リリースされるアプリケーションは Tiger で動かないものが多くなってきた。別に新しい機能にはそれほど惹かれないので、そういう事がなければバージョンアップしなくても平気なのだが。
+前に一度 Mac mini の内蔵ハードディスクを載せ換えて容量を増やしたものの、写真の RAW データが大きいこともあって、また空き容量が無くなってきた。今の環境を保存したままバージョンアップは出来そうもないので、今後のバックアップの為にも外付のハードディスクを買って、そこへ新システムをインストールすることにした。 メールの送受信、Web のブラウズ、ブログの更新などは今迄と同じ様に出来る様になった。まだ細かいところは残っているが、それは追々と。
+また内蔵ハードディスクを交換して、単体でSnow Leopard を起動出来る様にした方が、LaCie d2 quadta の無駄にでかいアクセスランプの明滅を見なくて良いし、消費電力も少なくなるが、Mac mini のハードディスクの交換作業は面倒な事と、発熱の心配もあるので、しばらくこのまま運用してみるつもりだ。
+……と書いて更新しようとしたところで、ecto からの送信がエラーになって失敗することが判明した。文字だけのエントリーならWeb ブラウザで書いても大して手間は変らないが、画像があると自分でHTML を書くのは面倒だ。Movable Type のバージョンアップでうまくいくかもしれないが、うまくデータを引き継げるか不安がある。こまった。</description>
+    </item>
+    
+    <item>
+      <title>それは釣りというより…</title>
+      <link>https://kusumotonorio.github.io/2009/05/post_120.html</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2009/05/post_120.html</guid>
+      <description>テレビで GREE の釣りゲームの CM を観る度に気になるんだけど、錦鯉が釣れたら、それは遊びというより泥棒なんじゃないか？</description>
+    </item>
+    
+    <item>
+      <title>やっと真っ当に</title>
+      <link>https://kusumotonorio.github.io/2009/03/post_114.html</link>
+      <pubDate>Tue, 31 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2009/03/post_114.html</guid>
+      <description>このブログを Windows Internet Explorer で観ると、我が意図するレイアウトで表示されなかった。他の主だったブラウザでは大丈夫。IEがダメダメなのは有名なのだが、なんせ大半の人が使っているブラウザなので、プロはそれはもう涙ぐましい努力で複数ブラウザの互換性を確保している。自分もちょっとチャレンジしてみたが、全然直らないので、放置していた。
+自宅の Mac の仮想化ソフト上にWindows XP をインストールしたので、“ Internet Explorer 8 リリース候補 1”をダウンロードして使ってみた。これで当ブログを観ると……
+まともなレイアウトで表示されている。まだ正式版ではないが、いずれ IE を使う人は皆、このブラウザを使うことになるのだろう。もう直さなくてもいいや。</description>
+    </item>
+    
+    <item>
+      <title>鼻歌検索</title>
+      <link>https://kusumotonorio.github.io/2008/12/post_104.html</link>
+      <pubDate>Tue, 23 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2008/12/post_104.html</guid>
+      <description>個人レッスンなので、他の生徒さんがどんな曲を弾いているのかはあまり知らない。演奏会があると「あの人はこの曲が好きなんだな」とか、「こういう曲もウクレレに合うな」とか分って、なかなか面白いものだ。
+皆さん、演奏前には曲名を紹介してくれるのだけど、よく知っている曲じゃないとすぐ忘れてしまって、後から何だったっけ？となってしまう。うろ覚えの単語を使って検索してみるが上手く行かない。でもメロディーは覚えていたので、鼻歌を歌うと検索してくれるサービスを使ってみた。その結果は……。
+そうそう、これですよ。しかもトップに来ているじゃないの。凄い技術ですな。それに我が歌唱力（鼻歌力）も満更ではない……と言いたいが、第二候補がＢＯΦＷＹって。</description>
+    </item>
+    
+    <item>
+      <title>クローム襲撃</title>
+      <link>https://kusumotonorio.github.io/2008/09/post_97.html</link>
+      <pubDate>Tue, 02 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2008/09/post_97.html</guid>
+      <description>↑って言ってみたかっただけです。すいません。
+Google が自前のブラウザ “Chrome” を出すとの事で、益々 Microsoft との対立が深まって行きそう。レンダリングエンジンには WebKit を使うらしく、Apple 派としてはよい話だが…先日 Safari から FireFox に乗り換えた身としては何だか複雑な感じ。
+そう言えば、旅先で自分のブログを IE7 で観たら意図したデザインと違っていて、右サイドバーがメイン・カラムの下に表示されていた。皆のところではそうやって表示されているのかな。IE は何とかならんのかね…。</description>
+    </item>
+    
+    <item>
+      <title>BlogPeople の表示も止めた</title>
+      <link>https://kusumotonorio.github.io/2008/04/blogpeople.html</link>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2008/04/blogpeople.html</guid>
+      <description>主に他所のブログのリンク管理に BlogPeople を使っていた。リンク先が更新されたことがわかったり、自分のブログの閲覧回数がわかったりと便利に使っていたが、先日の Trackback People に続いて、今日から BlogPeople サービスでも広告リンクが表示される様になってしまったので、ページから外した。自分のページに自分で制御出来ない広告を載せるつもりなら、こんなややこしい方法でブログを運営したりしない。
+更新がわからないのは不便だが、WEB ブラウザの RSS フィードチェック機能を利用することにする。ウチのブログからリンク先の状況をチェックしてた方、もしいたらごめんなさいね。閲覧回数情報も、誰が観ていたかは追跡出来ないけど合計回数だけはわかるというのが丁度良い塩梅だっただけに惜しいけど、まぁ、そもそも大して閲覧者もいない訳で、全然わからなくて良いや。世の中には知らない方が幸せなこともある。</description>
+    </item>
+    
+    <item>
+      <title>TonePort KB37 のノイズ問題、解決</title>
+      <link>https://kusumotonorio.github.io/2008/03/toneport_kb37_1.html</link>
+      <pubDate>Thu, 20 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2008/03/toneport_kb37_1.html</guid>
+      <description>録音するとノイズが入ってしまい、活用出来ていなかった TonePort KB37 だが、メーカーのサポートBBSに書き込まれていた情報によって問題の原因が特定出来きた。仮想化ソフト Parallels Desktop for Mac がインストールされていると正常に録音出来ない。アンインストールするとＯＫ。
+仮想マシンにUSB機器からの信号を横取りするための仕組みが悪さをするということだろうか。今にして思えば真っ先に疑うべきソフトな訳だが、ほとんど立ち上げることもなく、気が付かなかった。うーん、使うときだけインストールするか、VMWare などに乗り換えるか。この手のソフトは何かと使えそうで買うけども、結局ほとんど使わないんだよなぁ。
+買ってからもう一年ぐらい経ってしまったが、これからは精々活用しよう。これで狭い机の上にオーディオインターフェースが二つも載っている状況が改善されるかといえば、高負荷時に音声再生が乱れて「ジーッ」といってビックリさせられるので、こいつに一本化出来るかどうか……。
+他にも、音質が今一とか、無駄にデカくて圧迫感があるとか、その割にノブが少ないとか、鍵盤のプラスチックが薄くて押し込んだときの感触も悪いとか、ギシギシいうとか、時々暴走するとか、メンテナンス用ソフトのキャラクターが怖い猿だとか、多少気になる点もあるが、何処となくスチームパンクな姿が憎めないヤツである。</description>
+    </item>
+    
+    <item>
+      <title>Flickr</title>
+      <link>https://kusumotonorio.github.io/2008/03/flickr.html</link>
+      <pubDate>Sun, 02 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2008/03/flickr.html</guid>
+      <description>写真共有サービス Flickr に参加して、自分の写真をアップしてみた。
+http://flickr.com/photos/kusumoto/
+Flickr は米Yahoo! が買収した写真共有サービスサイトで、（中国語や韓国語はあるのに）日本語の案内はないけれど、タイトルやらコメントやらに日本語を使うことが出来て、日本人のユーザも沢山いる。写真共有サービスや写真投稿サイトというものは国内にも幾つもあるが、どうせなら世界中の人と共有出来た方が面白そうなのでここにした。
+膨大な数のメンバーにアップロードされた膨大な写真に埋もれ、我が写真が多くの人に観られる見込みはなさそうだが、やはり Flickr はいろんな写真が観れて面白い。日本人が撮った写真は傾向というか雰囲気が似ていて、日本人が撮ったなと大体分る。国内対象サービス（？）だと日本人の写真を見続けることになってしまう。それはちょっとつまらない。
+ただ、日本人の写真にあまりコメントが付いていない様子を見ると、日本人の感覚が他の国の人に伝わらないというか、共感されないのだろうなと思う。外国人にうけないからといって、つまらない写真という訳ではない。それがもどかしい人は国内対象サービスの方が良いだろう。
+写真を観るのにメンバー登録をする必要はないので、Flickr で写真観賞を楽しんでみてはいかが。</description>
+    </item>
+    
+    <item>
+      <title>古き友よ、安らかに眠れ</title>
+      <link>https://kusumotonorio.github.io/2008/01/post_52.html</link>
+      <pubDate>Mon, 28 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2008/01/post_52.html</guid>
+      <description>日本の Macintosh 用ソフトウェア・ベンダー最古参と言えるエルゴソフトが、パッケージソフトからの撤退を表明した。
+キヤノン販売がMacintosh を（無理矢理）日本語化したDynaMac には、エルゴソフトの EgBridge が付いて来た。当時の EgBridge は IM（昔風に言うと FEP、Windows 風に言うと IME）ではなく、純正の漢字Talkに先んじた「日本語化ツール」であった。それ以来 EgBridge は、日本語ワープロソフト EgWord と共にバージョンアップを繰り返して Mac OS X の時代となった今まで生き残ってきたが、とうとう表舞台から去る日が訪れた。
+大きな OS の変更が行われると IM が不安定動作の原因になったりするので、誤変換率No.1の純正 IM「ことえり」を泣く泣く使う様になったが、 EgBridge や EgWord には長らく世話になった。物好きで捻くれ者の Macユーザーを支え続けたソフトたち、お疲れ様でした。</description>
+    </item>
+    
+    <item>
+      <title>Nikon COOLSCAN V ED　（２）</title>
+      <link>https://kusumotonorio.github.io/2008/01/nikon_coolscan_v_ed_1.html</link>
+      <pubDate>Sun, 20 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2008/01/nikon_coolscan_v_ed_1.html</guid>
+      <description>今はもう解決した（ような気がする）問題なのだが、COOLSCAN V EDでフィルムを読み取り、Digital ICE (傷／埃取り)を掛けると、薄い線が現れることがあった。掛ける前の画像には無いのだが。
+最初は「何だこれ？　Digital ICE と相性が悪い画像なのかな」と思ったが、複数の画像で同じ様な線が入るので、「まさか、スキャナーの中に埃か何か入っているんじゃないだろうな。埃にしてはフィルムのコマに対して大き過ぎる。レンズについているのか？」とストリップフィルムアダプタを抜き取ってみると、「って、本当にあるよ……」。読み取り窓部分に白っぽくて細い髪の毛みたいなものがビヨーンと出ている。
+引っ張ってみたら、プチッと切れた。髪の毛にしてはちょっと脆過ぎる気もする。筐体が細く削れたものの様な…。まあ、深く追求しないことにした。その後は上手く読めているみたい。</description>
+    </item>
+    
+    <item>
+      <title>Nikon COOLSCAN V ED　（１）</title>
+      <link>https://kusumotonorio.github.io/2007/12/nikon_coolscan_v_ed.html</link>
+      <pubDate>Tue, 11 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/12/nikon_coolscan_v_ed.html</guid>
+      <description>一年間ぐらい、デジカメを買い替えたいと思っていた。今は釣りに持ってくために防水仕様のものを使っているのだけど、感度が低くて、夜の室内の撮影では上手く撮れない。フラッシュを焚いても色合いがおかしい。ホワイトバランスやら、露出補正機能を呼び出すのも幾つか手順を践まなくてはならず、面倒だ。釣り場の記録用にはこんなもんで構わないのだが、それ以外のシチュエーションでは不満が募るヤツである。
+最近はデジタル一眼が大人気だが、自分があれを持ち歩いている様子が想像出来ない。『カメラ女子』ならいいけど、男で一眼レフを首から下げてその辺をウロウロしていても怪しくないのはキムタクだけだと思う。
+という訳で、コンパクト・デジカメでをいくつか検討したが、どうも納得出来るものが無い。旅先で久しぶりにフィルムカメラも使ったらナカナカ良かったので、方向性を変えて、コンパクト・フィルム・カメラで写真を撮って現像し、フィルム・スキャナでコンピュータで読み込むことにした。
+しかし、フィルムカメラが絶滅しそうな昨今、フィルム専用のスキャナの需要は少なくて、メーカは次々に撤退しており、もうニコンとエプソンしか残っていない。しかも、ずっとモデルチェンジしていない。フラットベッドタイプのスキャナでもフィルムの取り込みは出来る。そっちの方が安いし、高スペックの新型がどんどん出ているのだが、如何せん設置の場所を必要とする。カタログ上のスペックには現れてこないメリットも期待して、絶滅危惧種のフィルムスキャナの中から、Nikon の COOLSCAN V ED を購入した。
+（続く）</description>
+    </item>
+    
+    <item>
+      <title>トラックバック・ピープル、止めた。</title>
+      <link>https://kusumotonorio.github.io/2007/11/post_38.html</link>
+      <pubDate>Thu, 15 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/11/post_38.html</guid>
+      <description>サイドに表示させていたBlogPeopleのサービス、トラックバック・ピープルが、PRと称して広告リンクを貼る様になってしまったので、使うのを止めた。
+まぁボランティアでやっている訳じゃなし、広告収入を増やす様にするのは先方にとっては当然の発想だろうが、こっち側からするとスパム・トラックバックと大して変らないよね。</description>
+    </item>
+    
+    <item>
+      <title>TonePort KB37、その後</title>
+      <link>https://kusumotonorio.github.io/2007/09/toneport_kb37.html</link>
+      <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/09/toneport_kb37.html</guid>
+      <description>ウクレレ練習支援のため（？）に買った TonePort KB37 だが、録音中に「ジジジ…」という感じのノイズが時々入ってしまう。他のUSB機器と一緒に使うと問題があるのかとか、何かのソフトと相性が悪いんじゃないかとか、いろいろ付けたり外したりして試したが問題は解消出来ずにいる。（本当は、「演奏確認」にノイズが入っても支障はないのだが……。）機器が壊れているかというと、そうではないらしい。以前使っていた G4 Mac mini では正常に動作する。
+TonePort シリーズは他のUSB機器では一般的ではない「アイソクロナス転送モード」でパソコンと通信を行う。（追記：一般的にオーディオインターフェイスはアイソクロナス転送モードを使い、別に珍しいモードではないらしい。）USBインターフェース用チップによっては、この通信要求を捌ききれなかったりするらしい。特に、Intelのチップセットには、このUSBのアイソクロナス転送モードに関してバグがあって正常に動作しないものがあるとのこと。この様なときはUSBインターフェースボードを増設しろとメーカーは書いているが、Mac mini には拡張スロットは無い。Intelの CPU を使用した Mac mini で正常に動作しないというアナウンスは無いのでこっちの問題なんだろうか。ともかく、なかなか気難しい機器であるらしい。
+もう一つの手持ちのオーディオ・インターフェイスである UA-3FX は１チャンネルしかマイク入力出来ない。それが理由で Toneport KB37 を買ったのだったが、こうなったらこれを何とか上手く使う方法を考える。この機器、マイク入力は１チャンネルだがライン入力はステレオ録音出来る。つまり、マイク入力をラインレベルまで増幅してやれば良い訳だ。それに、幸いRode社のステレオ・コンデンサマイク NT4 はファンタム電源がなくても、乾電池で動作する。
+マイクアンプを買うのも癪だと考えていたら、昔、学祭のPA用に４CHマイク・ライン・ミキサ（YAMAHA MV100）を買って、今も捨てずに取ってあることを思い出した。試しにこいつをステレオマイクとの間に咬ませたら、上手く行く。安物で、長い間通電もしていない状態では音質は期待出来ないが、この際、細かいことは気にしないことにしよう。将来こんな風に役立つとは思っていなかったな。
+いつかパソコンを買い替えるまでメインの録音機能が使えない TonePort KB37。結構気に入っているんだけど。精々MIDIキーボード部を活用することを考えねば。
+（関連リンク：　TonePort KB37 のノイズ問題、解決）</description>
+    </item>
+    
+    <item>
+      <title>スローライフ</title>
+      <link>https://kusumotonorio.github.io/2007/08/post_28.html</link>
+      <pubDate>Tue, 28 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/08/post_28.html</guid>
+      <description>かれこれ一週間以上ADSLが不調で、快適ネット生活は破綻。サポートと毎日お話しする日々。</description>
+    </item>
+    
+    <item>
+      <title>社会復帰</title>
+      <link>https://kusumotonorio.github.io/2007/08/post_29.html</link>
+      <pubDate>Tue, 28 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/08/post_29.html</guid>
+      <description>愚痴を言ったら、仕事から帰ってきたら直っていた。「神様にもゴネ得」なんでしょうか。
+ユーザー・サポートさんの話では、電話局内の設備を交換したらしい。いやー、ADSLってこんなに速かったんだな。いろいろ大変でした。</description>
+    </item>
+    
+    <item>
+      <title>物欲の虜</title>
+      <link>https://kusumotonorio.github.io/2007/04/post_11.html</link>
+      <pubDate>Tue, 24 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/04/post_11.html</guid>
+      <description>最初は単に、自分のウクレレ演奏のチェックが目的だった。そこそこの音で録れるというボイスレコーダ用マイクを買ってコンピュータに録音、演奏を確認していた。折角だから楽器用マイクを買って、もっと良い音で録ってみよう。一つの楽器だけの演奏をモノラルで録ると空間の広がりがまったく無いから、そのうちステレオで録りたくなるのだろう。どうせマイクを買うなら最初からと、一月程前にRODE社のNT4を買った。
+折角のステレオ・マイクなので、ステレオで録音してみたくなる。でも、手持ちのオーディオ・インターフェイスでは、マイクからは２チャンネル録りが出来ない。じゃあ、オーディオ・インターフェイスも買おう。NT4はコンデンサマイクだから、ファンタム電源付きで２チャンネル以上のものをあれこれ調べる。結局購入したのは、前からずっと気になっていたLINE6のTonePort KB37。外観がかなりツボで、鍵盤楽器はまったく弾けないのに、何か役立つんじゃないかと無理矢理自分に言い聞かせて。
+届いた実物は、でかいプラスチックの塊という感じで高級感は無いが、組み合わせて使用する怪しいアンプ・シミュレータソフトGearBoxと共に、結構気に入った。だが、自分のコンピュータ環境では時々挙動不審になる、かなりの『じゃじゃ馬』。その辺りの話は、また今度。
+次はこれに似合う密閉型のヘッドフォンが欲しいな。（←もう、目的を完全に逸脱。）やっぱり、これかな。</description>
+    </item>
+    
+    <item>
+      <title>こんな世界は嫌だ</title>
+      <link>https://kusumotonorio.github.io/2007/03/post_6.html</link>
+      <pubDate>Mon, 19 Mar 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/03/post_6.html</guid>
+      <description>これはネタなんだろうか？　それとも……。
+・OKWave ミクシィで読み逃げするマイミク！
+mixiのことは未だ良く知らない。でも、こんな粘度の付き合いを求められる「世界」だというならば、輪に加えてくれなくていいや。いや、流石にこれがmixiの「常識」ということはないよね？</description>
+    </item>
+    
+    <item>
+      <title>移行完了</title>
+      <link>https://kusumotonorio.github.io/2007/02/post_1.html</link>
+      <pubDate>Sun, 25 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/02/post_1.html</guid>
+      <description>データの移動は「移行アシスタント」が自動的にやってくれるので良いんだけど、このブログの書くための Movable Type が上手く動かなくて、この際だから最新の3.34に入れ替える。使っていた古いバージョンとは作ったファイルの配置や名前の付け方などが大きく変わっていて、 Apple の .Mac サーバにアップするための自作スクリプトと合わなくなった部分もあるが、大体クリアできた。これで旧マシンの引き渡しが出来る。
+CPU が異なるというコンピュータとしては決定的な変更を行っているにもかかわらず、前の Mac mini からの移行には拍子抜けする程、環境の違いが感じられない。お見事、Rosetta。こんな危なっかしい綱渡りを何度もスムーズに行う Appleは大したもんだと言うか、何というか…。
+これで Windows 等の Intel 系の資源は活用する道が開けたが、逆に Mac OS 9 以前のアプリは動かない。その辺をなんとかしなくてはならない。もっとも、今使っているのは Harmony Assistant と Melody Assistant の日本語リソースファイルを編集するために使っている ResEdit だけなのだが。 </description>
+    </item>
+    
+    <item>
+      <title>勘違い</title>
+      <link>https://kusumotonorio.github.io/2007/02/post0223.html</link>
+      <pubDate>Fri, 23 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/02/post0223.html</guid>
+      <description>二年間使って来たMac miniを家族に譲って、新しいMac miniに買い替えた。スピードは自称「５倍高速」だそうだが、以前の割安感が無く、人にはお勧めし難いマシンになってしまっている。その上……。
+上のモデルにしたことだし、二年前のモデルに比べて当然ハードディスクの容量は倍増しているものだと思ってたら、前回はカスタマイズして注文していたため同じだった。パーティションを切って勘違いしたままデータを移行していたら満タンになってしまい、今最初からやり直しているところ。仕方が無いから１パーティションで使うことにする。出会いの印象、悪し。
+環境を上手く移せるまで、また暫くブログの更新が滞るかもしれません。書きたいネタはあるのですが。</description>
+    </item>
+    
+    <item>
+      <title>これって便利なの？</title>
+      <link>https://kusumotonorio.github.io/2007/02/post0201.html</link>
+      <pubDate>Thu, 01 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2007/02/post0201.html</guid>
+      <description>先日から Windows Vista が発売になって『Windows フリップ 3D』を操作している様子がCM で流れているが、全然便利そうに見えない。これって、どうなの？</description>
+    </item>
+    
+    <item>
+      <title>ADSL導入</title>
+      <link>https://kusumotonorio.github.io/2006/03/adsl.html</link>
+      <pubDate>Thu, 09 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2006/03/adsl.html</guid>
+      <description>インターホン・システムとかとの干渉を懸念していたけど、結果的に問題なかった。なんだ、もっと早く契約すれば良かった。
+レンタルした（しかできない）ADSLモデムがスプリッタ内蔵タイプで、電話機と違う場所に設置したかったので苦労する。欲しいものは在庫がないわ、店員に訊いてもよくわからんわ…。これでスプリッタを複数設置したときの問題を回避できているのか納得できていないが、電話の発信も支障無さそうだし、速度も12Mbps以上出ているみたいだから良しとしよう。
+家庭内LAN構築でWindowsマシンのお守をしなくちゃならんのが大変。</description>
+    </item>
+    
+    <item>
+      <title>本日開店</title>
+      <link>https://kusumotonorio.github.io/2005/08/post0804.html</link>
+      <pubDate>Thu, 04 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/08/post0804.html</guid>
+      <description>日本上陸を果たした iTunes Music Storeで、早速お買い物。いやぁ、待ったよなぁ。
+スタートから１００万曲以上を提供ということだが、検索しても本当に買いたいものは……ない。ソニーミュージックエンタテインメントは「諸般の事情」で、まあしょうがないけど、小さいレーベルがもっと参加しないと。洋楽はアマゾンで輸入CDを買う方がお買い得感があるし、気に入った曲だけ買うのが良さそう。
+記念すべき一曲目に何を買おうか考えてウクレレ教室で習っている曲を検索したら、一曲だけヒットしたのが「日野てる子」だった。止めた。</description>
+    </item>
+    
+    <item>
+      <title>帰ってきた虎</title>
+      <link>https://kusumotonorio.github.io/2005/07/post0731.html</link>
+      <pubDate>Sun, 31 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/07/post0731.html</guid>
+      <description>AIR-EDGE PHONE AH-J3003S が Tiger 10.4.2 でうまく動かない問題は、ユーザによってアップルのディスカッションボードに解決方法が掲載された。これを参考に、Pacifist を使ってインストール・ディスクから AppleUSBCDCACMData.kext V3.1.4 を取り出し、Tiger 10.4.2の3.1.5 と入れ替える。
+アップルも日本無線も、解決策どころか、今のところ何のアナウンスもなし。予想通りの対応…。</description>
+    </item>
+    
+    <item>
+      <title>行ったり、来たり。</title>
+      <link>https://kusumotonorio.github.io/2005/07/post0720.html</link>
+      <pubDate>Wed, 20 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/07/post0720.html</guid>
+      <description>ソフトウェア・アップデートで Mac OS X Tiger のバージョンを10.4.2にしたところ、AIR-EDGE PHONE からインターネットに接続できなくなってしまった。例によっていつ対策してくれるのかわからないので、立ち上げる環境をバックアップ用パーティションのPanther (10.3.9) に戻す。やれやれ…
+このブログの構築環境を Tiger から Panther へお引っ越し。さてうまくいったかな？</description>
+    </item>
+    
+    <item>
+      <title>携帯版　リニューアル</title>
+      <link>https://kusumotonorio.github.io/2005/05/post0518.html</link>
+      <pubDate>Wed, 18 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/05/post0518.html</guid>
+      <description>当ブログは以前から「携帯」向けのページを作るようにしてあったのだが、ディスプレイが小さくてダウンロードするデータ量の制限もある携帯では、実際には画像を見ることが出来なかった。MacのOSを10.4 Tigerに換えたら携帯用ページを作るスクリプトが正常に動かなくなってしまったので、これを機に大幅に書き直して携帯でも小さいサイズの画像を見ることが出来るようにした。
+そもそもPC版でさえほとんど観ている人はいないと思われるのに、携帯版に力を入れてもしょうがないわけだが…。自分がAIR-EDGE PHONEにしたもので、まあ自己満足用ということで。観てやろうという方は次のアドレスですのでよろしく。
+/i/</description>
+    </item>
+    
+    <item>
+      <title>『式年遷宮』方式</title>
+      <link>https://kusumotonorio.github.io/2005/05/post0506.html</link>
+      <pubDate>Fri, 06 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/05/post0506.html</guid>
+      <description>OSを『Mac OS X 10.4 Tiger』に載せ換える。
+AppleのOSのメジャー・バージョンアップのときには「バグ取り」が不十分だったり、周辺機器メーカの対応が間に合わなかったりで、いきなり移行してしまうと問題が多発して大変なので、本当はドタバタが収まる時期まで待った方が懸命だ。しかし、新しいOSが出たら直ぐ使ってみたいのが（Appleおたくの）人情というものである。
+Mac miniを買った時点で次期OSの登場が近いことが分かっていたので、ハードディスクを二分割しておいた。空けておいたパーティションにCarbon Copy Clonerを使って今までの環境を起動可能な状態でコピーし、新OSをクリーン・インストール。新旧のOSどちらでも使えるようにした。大きな問題がなければすぐに新環境に切り替えようと思っていたのだが ——— 私の感想では、現状の“Mac OS X 10.4 Tiger”は実用（実務）に堪えない（追記：まぁ、なんとかなる気がしてきた）。移行はアップデータが出て、不具合が少なくなってからの方が良いだろう。自分のところで起きる不具合は：
+● LAServerのCPU使用率が上がりっぱなし
+これは他の人からも報告されている。で、CPUを占有して、冷却ファンがフル稼働する。（追記：これはほっとけば止まるものらしい。）
+●インターネット接続が、選択モデムを覚えていない。
+メニューバーのモデムメニューで、チェックが外れてしまう。（追記：取りあえず、AIR EDGEだけの『ネットワーク環境』を作って運用することにする。）
+（動作環境：　Mac mini 1.42GHz - 512MB）
+何故、出荷前に気付かないのか…。小賢しく「サプライズ」を目指さずに、ベータ・テストをちゃんとやってほしい。もうプレ・インストールOSが10.4になったらしいが、こんな状態で大丈夫なんだろうか。
+あと、個人的にはAH-J3003Sでのダイアルアップ接続が安定しないのが一番痛い。pppdを「殺し」ても接続解除の状態から抜け出せないことが多いので、再起動ばかりしている。日本無線は10.4への対応をうたっていないのでAppleの問題だとは言えないのだが、専用のドライバではなく一般的なUSBモデムとして接続するので、Apple側が何かしないと改善しないのではないかと思う。（追記：これは、10.4の問題ではないのかもしれない。“IO-DATA USB-CFADP” のモデムスクリプトを流用すると、多少安定する。）
+ネガティブな感想を書かざるをえないのは、Appleファンとしては残念である。もちろん魅力的な点も多いので、問題が改善されれば早く移りたい。</description>
+    </item>
+    
+    <item>
+      <title>.MacのContent-Typeの不具合を回避する</title>
+      <link>https://kusumotonorio.github.io/2005/04/maccontenttype.html</link>
+      <pubDate>Thu, 14 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/04/maccontenttype.html</guid>
+      <description>（続き）
+.Macサポートからメールが来たが、「奴らは間違った場所を掘っている」という感じがする。直してくれるのかどうか不安なので、自力解決を目指す。
+HTMLファイルをFinderからドラッグ＆ドロップしてコピーを行ったときは、Content-Typeがapplication/octet-streamに化けずに、text/htmlで正しく送られてくる。同様の不具合で困っている人の報告を見ると、「 GoliveのWebDAVなら問題ない」とのこと。確か、FinderもWebDAVでファイルをアップロードしていたはず。ということは、WebDAVプロトコルでアップロードすれば問題を回避できる可能性が高い。（追記： Goliathによるアップロードで問題が起きる報告もある。 GoliathはWebDAVクライアントなので、WebDAVであれば良いという訳ではないらしい。）
+WebDAVでアップロードするシンクロ・ツールを探したところ、sitecopyというものがあることが判った。.Macで使う方法が親切に解説されているページも見つけた。
+・using sitecopy for synchronising local file and idisk(.Mac)
+このページに倣ってsitecopyの設定を行い、同期に成功した。結果は良好。“Content-Type: text/html”で送られてくる。それにしても、どうやったらこんな器用な不具合が起こせるんだろう。逆に難しそうなのだが。技術的な興味が湧きますな。
+今までrsyncを使っていたが、sitecopyに換えたことでアップロードにかかる時間が大幅に短縮されるという、嬉しい『副作用』があった。何か手を考えなくてはいけないと思っていたので、災い転じて福となすという感じだ。それに、iDiskをマウントしておかなくても良くなった。
+自分の為に、以下に設定方法をメモしておく。
+準備：
+% cd ~
+% mkdir -m 700 .sitecopy % touch .sitecopyrc % chmod 600 .sitecopyrc
+% sitecopy —catchup blog
+~/.sitecopyrc
+site blog server idisk.mac.com protocol webdav username n_kusumoto password [.Mac password] local [local blog path] remote /n_kusumoto/Sites/blog/
+同期時：
+% sitecopy —update blog</description>
+    </item>
+    
+    <item>
+      <title>サーバーに何かした？</title>
+      <link>https://kusumotonorio.github.io/2005/04/2005-04-12-post0412.html</link>
+      <pubDate>Tue, 12 Apr 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/04/2005-04-12-post0412.html</guid>
+      <description>.Mac（ドット・マック）サービスで運用している当ブログが、一般的なブラウザーで表示できなくなっていることに気が付いた。FirefoxやIEで表示しようとすると、HTMLファイルと認識されない様だ。Safariでは問題が起きないので気が付かなかった。
+ローカルマシンのMTで作られたファイルをrsyncでアップロードしている。何かアップロードの仕方に問題があったかと調べてみたが、よくわからない。そういえば、つい最近似た様な話を読んだ様な…　と思ってもう一度読んでみると、どうも関係がありそうだ。 追記；photoboxの不具合
+どうやら、Appleが.Macを大きくいじった可能性が高い。
+取りあえず、Finder上でドラッグ＆ドロップでコピーすれば問題を回避できる様なので、index.htmlだけこれで行く。
+［追記］
+表示できないもののヘッダーを見ると：
+HTTP/1.1 200 OK
+Date: Tue, 12 Apr 2005 12:40:34 GMT
+Content-Length: 5939
+Content-Type: application/octet-stream
+Cache-Control: public
+Server: AppleDotMacServer
+X-Responding-Server: webdav04
+ETag: 14djc8on-44lp-inmyhm87o-3rgdozcih0
+Last-Modified: Tue, 12 Apr 2005 12:10:09 GMT
+Via: 1.1 netcache06 (NetCache NetApp/5.5R4)
+この“Content-Type: application/octet-stream”が原因だな。“text/html”でなくてはいけない。</description>
+    </item>
+    
+    <item>
+      <title>休憩しっぱなし</title>
+      <link>https://kusumotonorio.github.io/2005/03/post0306.html</link>
+      <pubDate>Sun, 06 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/03/post0306.html</guid>
+      <description>Mac mini の『環境整備』はまだまだ続く。今までパームレストの空間があるノート・パソコンを使っていたので、今度のキーボードの高さが慣れない。トラックボールの方も手の小さい自分には高さが合っていない。キーボードのメーカーから純正のパームレストが発売されているが、わざわざ買うのもどうかということで、わざわざ作ることにした。
+と言っても、板を買ってきて、ドレッサーで面取りしてオイルを塗っただけなのだが。選んだ木材は月桂樹。月桂樹の葉は、料理に使ったり（ローリエ）、ＴＶでオリンピックの冠（月桂冠）で見たことがあって知っていたが、木の板は初めて見た気がする。先日使った花梨も重かったけど、この木も結構重量がある。手を動かしても安定していることを期待して、ちょっと高かったが選んでみた。少し緑がかった様な黄土色だったものが、亜麻仁油を塗ったところ色が変わって焦げ茶色になった。
+T.Craftさんの製品を買ってから、オイル・フィニッシュの木製品の手触りに惹かれている。ウレタンとは違って、塗る作業も気軽に出来る。今度ロッドを作るときはオイル仕上げにしようかなと。</description>
+    </item>
+    
+    <item>
+      <title>古風な音楽の聴き方</title>
+      <link>https://kusumotonorio.github.io/2005/03/pos0302t.html</link>
+      <pubDate>Wed, 02 Mar 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/03/pos0302t.html</guid>
+      <description>パソコン、Mac mini の『環境整備』がちっとも終わらない。今までハードディスクの容量や CPU の処理速度の問題で諦めてきたものをセッセとインストールしている。昨夜も OpenOffice 系の、NeoOffice/J を一晩かけてダウンロードして目覚めてからインストール。これで Microsoft Excel や Word のファイルがメールに添付されてきても読めるでしょう…
+今晩は Clutter をインストールしたのだが、なかなか小粋なソフトだ。
+Apple の誇るジュークボックス・アプリ、iTunes をコントロールする。アマゾンからアルバム・ジャケットの画像を取ってきて、その画像をデスクトップにドロップすると、そのジャケットがアルバムごとのコントロール・ウインドウになる。iTunes でもアルバム画像を表示できるけど、Clutter は「そのアルバムを聴く」というのが感覚的に分かりやすい。いつもシャッフルせずに、買ってきたアルバムを飽きるまで何度も聴くという感じなので、自分に合いそうだ。</description>
+    </item>
+    
+    <item>
+      <title>Mac mini と Expert Mouse USB/PS2</title>
+      <link>https://kusumotonorio.github.io/2005/02/mac_mini_expert_mouse_usbps2.html</link>
+      <pubDate>Sun, 06 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/02/mac_mini_expert_mouse_usbps2.html</guid>
+      <description>ポインティング・デバイスにマウスではなくて、Kensington のExpert Mouse USB/PS2 にした。何故か名前に “Mouse” とあるが、トラックボールである。トラックボールはノート型に内蔵されているものを使っていたとき以来久しぶりなのだが、使い出して数時間ですぐに慣れた。この大玉のトラックボールの使い心地はスコブル良く、もうマウス使いたくないという気持ち。ところが困ったことに−−
+Mac mini が電源投入による起動時に Expert Mouse を認識してくれないのだ。一旦、USBコネクタを抜いて、差すと働く。スリープからの復帰では問題なし。キーボードは電源投入時にも問題なく働く。
+最初は、繋いでいる USBハブとの相性が悪いのだと思った。それで Mac mini の USBポートに直接繋いだが、駄目である。iBook との組み合わせでは、電源投入による起動時も問題ない。単純な初期不良という訳でもなさそうで、困った。
+MouseWorks のオンライン・アップデートもしたが、改善しない。今のところ、不具合の報告情報も無いようだ。自分の機器だけの問題ということか。
+取りあえずの解決方法は、セルフパワーの USBハブに繋ぐことだ。USB のことは詳しくないが、ポートの電源オンと認識タイミングが微妙なんだろうか？</description>
+    </item>
+    
+    <item>
+      <title>お引っ越し　本日は晴天なり</title>
+      <link>https://kusumotonorio.github.io/2005/02/2005-02-06-post0226.html</link>
+      <pubDate>Sun, 06 Feb 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/02/2005-02-06-post0226.html</guid>
+      <description>Mac mini が届いて、環境のお引っ越し中。このウエブログのアップロード環境も移したので、テスト書き込みです。</description>
+    </item>
+    
+    <item>
+      <title>Newton Never Dies  2</title>
+      <link>https://kusumotonorio.github.io/2005/01/newton_never_dies_2.html</link>
+      <pubDate>Mon, 31 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/01/newton_never_dies_2.html</guid>
+      <description>以前は私のヘヴィー・ローテーションだったサイト、Yos さんの Club Newton が復活している。お帰りなさい。
+そのClub Newtonに、Einstein の設定が解説されている。
+・Newtonサポーターへ - Einstein の設定
+私にとっては、ROM Dumper で ROM イメージを吸い出すことよりも、ROM Dumper を実機にインストールする方が大変だった。
+Escale OSX や Delivery でインストールを試みたが、何か間違っているのか、上手くいかない。結局、Classic 上で NCU を立ち上げてインストールに成功したのだが、それも紆余曲折があった。
+MP2100 用に Farallon の LAN カードを持っていて既にドライバも入れてあったので Ethernet で繋げるものの、今使っている iBook にはモデムポートやプリンタポートがない。困ったことに、NCU はこれらのポートが無いと動作しないのだ（多分）。それで、PortShare Demo をインストールして、仮想ポートを作る。
+参考：　Newton@ &amp;gt; Mac OS X と Newton 良し、パッケージを選んでインストールだ…と思ったが、ROMDumper.pkg が選べない…。NCU が Newton にインストールするファイルだと認識出来ないらしい。そこで、Packager というアプリケーションで NCU が認識するようにした。Packager をインターネット上で探したが、見つけられなかったので（注：落ち着いて見たら、上記リンクでちゃんと紹介されています。とても役立つページです。）、何年も前にダウンロードしたものをバックアップ用にハードディスクから探し出し、ROMDumper.pkg をドロップしたところ、NCU が認識してくれた。以前は何に使うものなのか解っていなかったが、こういうことだったのね。
+という感じで苦労したが、ROM イメージを吸い出すことに成功した。</description>
+    </item>
+    
+    <item>
+      <title>Newton Never Dies</title>
+      <link>https://kusumotonorio.github.io/2005/01/newton_never_dies.html</link>
+      <pubDate>Wed, 26 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/01/newton_never_dies.html</guid>
+      <description>iPod の大ヒットで、Apple社がギョーカイの人やマニア以外からも注目を集めるようになった。新製品の iPod shuffle や Mac mini もヒットすることだろう。それは喜ばしいことだが、「なんか、ちょっと違うんだよね」という気持ちもある。（マニアだから？）
+iPod が受け入れられたのは、Apple の『センス』の良さを分かりやすく示すことが出来たからじゃないだろうか。他社と比べて、特筆すべき技術を使っているというわけではなく、技術の組み合わせ方や切り捨て方に妙がある。
+iPod とは対照的に（ソフトウェアの）技術的革命を目指した『Newton』は、ハードウェアの能力が追いつかず、市場に受け入れられなかったプロジェクトだ。開発、生産が打ち切られて久しいが、他社の製品に納得出来ない熱心なファンはMessagePad等を使い続けている。それでも、ハードウェアには寿命がある。壊れてしまえば使用出来なくなってしまう。そこに『救世主』が現れた。
+Paul Guyot氏の『アインシュタイン・プロジェクト』がNewtonのエミュレータを公開した。まだ開発途上だが、すでに操作が可能だ。自分でも動かしてみた。
+今後、JITコンパイラ技術（ダイナミック・リコンパイル）を採用して高速化も図られるとのこと。完成が待ち遠しい。</description>
+    </item>
+    
+    <item>
+      <title>ミニサイズ・ミー</title>
+      <link>https://kusumotonorio.github.io/2005/01/post0113.html</link>
+      <pubDate>Thu, 13 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2005/01/post0113.html</guid>
+      <description>…とマックが言ったかのかどうか知らないが、マックがミニサイズになって登場した。
+・Mac mini
+ディスプレイ分離モデルとしては、生産『休止』となった Cube 以来久しぶりの省スペース型。現行のラインナップの中に『リーズナブル』なモデルが見つからず、初代 iBook から更新出来ないでいた私としては嬉しい製品だ。で、ご購入に。
+キーボードやマウス、ディスプレイを別に用意しなければならないが、どのみちMacに付属するキーボードやマウスは気に入らないので、他の機種を買った場合にも買い替えることになったはずだ。別売りの方がゴミが増えなくて良い。ディスプレイも、iMac G5 の２０インチ・モデルの様にバカデカくなく、１７インチ・モデルの液晶より高品質なものが選べる。
+正方形のデザインから Cube を連想する人が多いと思うが、私はロジック・ボードの画像を観て、以前使っていた LC III を思い出した。LC III はスリムな『ピザ・ボックス』スタイルで、外見だけでなく内部もシンプルで美しいモデルだった。やっとあの頃の、要求性能と実装技術のバランスが戻って来たんだなと思う。
+次のモデルの LC 475 で、採用した FDD の都合か、フロッピー差し込み口のデザインが変更になり、その後は CD-ROM ドライブを内蔵する必要が出来たり、CPU が PowerPC になったりで、デザインが段々おかしくなっていった。それから iMac が登場するまで、Mac のデザインは散々だった。
+Mac君、もう「スーパーサイズ・ミー」とは言わないでほしい。そういえば昔、『Fat Mac』という通称のモデルがありましたね。</description>
+    </item>
+    
+    <item>
+      <title>海砂利水魚の水行松</title>
+      <link>https://kusumotonorio.github.io/2004/12/post1226.html</link>
+      <pubDate>Sun, 26 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2004/12/post1226.html</guid>
+      <description>JUGEMのBBSにしたのはいいが、昨日からサーバが落ちているらしくて表示出来ない。まさか来年まで再起動出来る人が居ないなんてことは…。JUGEMだけに、長い復活呪文が唱え終わらないとか？
+ジュゲム・ジュゲム・ゴコウノスリキレ・カイジャリスイギョノ…</description>
+    </item>
+    
+    <item>
+      <title>BBSの変更</title>
+      <link>https://kusumotonorio.github.io/2004/12/bbs.html</link>
+      <pubDate>Fri, 17 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2004/12/bbs.html</guid>
+      <description>当サイトのサイドに設置している掲示板は一度書込むと、あと１５件書込まれるまで消すことが出来なかった。BBSを提供してくれていたサーバの反応が悪くて上手く書き込めたのか分からないときがあり、折角書込みをしてくれた方に嫌な思いをさせてしまっていた。
+ちょっと不便な点もある aynim.org さんのBBSを使っていたのには理由がある。私は：
+広告が表示されるのは嫌だ。ましてや、何処の広告が出るかコントロール出来ないなんて。
+得体の知れない会社に（個人情報を伝えることになる）支払いをしたくない。
+たとえ名の知られた企業でも、信用する気になれないところが結構ある。
+それで、aynim.org さんのお世話になっていたのであるが、どうやら aynim.org はtnoTV.org とともに、今年一杯で閉鎖になりそうな気配なのである。それで、他のサービスを探すことにした。
+という訳で、無料で全く広告が出ないBBSとは行かないが、変な広告が表示されるこの無いJUGEMのBBSにしてみた。今度は管理者が書込みを消す事が出来るようになったので、消したいものがあれば連絡を下さいませ。</description>
+    </item>
+    
+    <item>
+      <title>メール受信絶不調</title>
+      <link>https://kusumotonorio.github.io/2004/11/post1108.html</link>
+      <pubDate>Mon, 08 Nov 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2004/11/post1108.html</guid>
+      <description>リムネットのメールサーバーの応答がすこぶる悪い。
+Ｅメールをいただいた方、申し訳ありませんが、返信が遅れると思います。ひょっとしたら受信の取りこぼしもあるかもしれません。
+リムネットは日本のインターネット・プロバイダの草分け的存在であり、技術的にも信頼出来るところだったが、プロバイダー業務がイージェーワークスに移されてから、どうも危なかっしくなってきた。困ったものだ。１１日からサーバーの増強を行う様だが、改善されないようなら他所へ移ることも考えなくてはいけない。</description>
+    </item>
+    
+    <item>
+      <title>ロボコン並み</title>
+      <link>https://kusumotonorio.github.io/2004/09/post0906.html</link>
+      <pubDate>Mon, 06 Sep 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2004/09/post0906.html</guid>
+      <description>Hiro’s Weblogさんで紹介されていたAnother HTML-lint gatewayで、自分のブログのトップページをチェックしてみた。結果は百点満点中 −−−
+/index.html を XHTML1.0 Transitional としてチェックしました。
+264個のエラーがありました。このHTMLは 3点です。タグが 27種類 663組使われています。文字コードは UTF-8 のようです。
+さ、３点って…。</description>
+    </item>
+    
+    <item>
+      <title>トラックバック・ピープルを簡単に</title>
+      <link>https://kusumotonorio.github.io/2004/08/post0831.html</link>
+      <pubDate>Tue, 31 Aug 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2004/08/post0831.html</guid>
+      <description>このブログはローカルでMTを走らせ、出来たページを.Macにアップしているためピンを受けられず、今までトラックバックに縁が無かった。けれどもBlogpeopleがトラックバックを活用したサービス、『トラックバック・ピープル』を開始したので、使ってみたくなった。
+同じ様なブログ運営になるiBlogのあるユーザの方が、Mac OS X 用にPingTrackbackというトラックバックためのアプリを公開してくれていて、これを使うとトラックバック・ピープルにもトラックバック出来る。ただ、PingTrackbackはiBlogで作成したページと連動する様に出来ているので、基本機能は使えるが美味しいところが使えない。それと、トラックバック・ピープルのために使うことを考えると、トラックバック先のURLを毎回入力するのが面倒だ。
+そこで自分で専用アプリを作ることを考えたが、面倒だし、いつ完成するやら分からない。トラックバックの仕様を見てみたら、ブラウザからフォームをポストするだけでトラックバック出来ることが分かった。それならアプリを作らなくても、CGIを作る程度でトラックバック用ツールが出来る。ローカルでMTを動かしているので既にwebサーバーが動いていて、CGIも使える様になっている。挑戦してみることにした。
+Pythonで書いたCGIはいろいろまずいところが残っていて、Safariでしかうまく動かないみたいだ。
+自分の環境やブログに合わせて手直しをして、拡張子をcgiに変更。CGIとして起動出来るディレクトリに移動し、起動出来る様にフラグを立てる。
+このCGIで表示されたページの最後にあるブックマークレットを登録して使うと、入力の手間が省ける。トラックバックしたいエントリのページを表示して、概要に入力したい文章を選択しておいてブックマークレットを選ぶ。
+トラックバック・ピープルのリストがプログラムに埋め込まれていたりとイマイチの出来だが、とりあえず自分で使うにはこれで良いかなと。こんな感じで出来るので、もっと良いツールを作って公開して下さいね。</description>
+    </item>
+    
+    <item>
+      <title>掲示板、はじめました</title>
+      <link>https://kusumotonorio.github.io/2004/06/post0617.html</link>
+      <pubDate>Thu, 17 Jun 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2004/06/post0617.html</guid>
+      <description>当サイトはブログには違いなのだが、普通のブログの様な、トラック・バックやコメントが出来ない。やっぱりちょっと寂しいので、簡単なＢＢＳ（掲示板）を付けてみた。（メインページの右側、カレンダーの下。）
+ここを見に来てくれるのは、メールのやり取りをしている親しい人が殆どだと思うので効果は薄いかもしれないが、メールする程でないコメントなど書き込んで下さいな。
+１５件しか残らないため、読む前に溢れてしまうということもあるかもしれないので、その点あしからずご了承下さい。（まぁ、こんな知名度の低い所で悪戯する人もいないとは思いますが。）</description>
+    </item>
+    
+    <item>
+      <title>連想ゲーム</title>
+      <link>https://kusumotonorio.github.io/2004/02/post0202.html</link>
+      <pubDate>Mon, 02 Feb 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2004/02/post0202.html</guid>
+      <description>このところ、コンピュータ・ウイルス（業界的には『ワーム』に分類される） MyDoom が大流行りで、私のところにも毎日、何通も届く。
+最近のこの手のウイルスは発信元メールアドレスを詐称するので、誰から届いたかは分かりづらい。自分宛のメールや、私のアドレスを使って送られてウイルス・チェックに引っかかったお知らせメールを見ながら、『感染』したのは誰かを推理していたのだが…　どうも知り合いではないらしい。ちょっと残念。
+そうと分かれば、自分のアドレスを使ってウイルスを送られるのは気持ちが悪いので、メール・ヘッダから送信しているコンピュータの接続しているプロバイダを確認し、WHOISで調べたネットワーク管理者に情報を送る。きっと大忙しなんだろうな、お気の毒に。
+やったことは此処に書いてることとほぼ同じ。
+リビング＋：しつこいウイルスメールへの対処法〜Fromを詐称されたメールから送信元を特定
+さて、効果や如何に。</description>
+    </item>
+    
+    <item>
+      <title>『パンサー』に乗換え</title>
+      <link>https://kusumotonorio.github.io/2003/11/post1102.html</link>
+      <pubDate>Sun, 02 Nov 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2003/11/post1102.html</guid>
+      <description>Mac の OS を Panther (Mac OS X 10.3) に入れ替えた。ハードディスクをフォーマットし直してクリーン・インストールしたので、諸々の環境の再構築を強いられる。このエントリを見ることが出来る様になっていれば、Blog 環境がＯＫになったことになるのだが、さて−
+Apple の OS は褒めて良いのか悪いのか、バージョンアップの度に速くなるという傾向があって、今度の 10.3 も 10.2x より軽快に動く様だ。（ Mac OS X の最初のバージョンが遅すぎたとも言うが…）
+最新版 OS を 300MHz マシンで使えるおかげで、買い換え計画はまた延期に。この Mac（ iBook ） もメモリー増設はもちろんのこと、分解してのハードディスク交換、液晶ディスプレイのバックライトの冷陰極管の交換を行い、下取りにも出せないし、愛着もあるのでもう少しこのまま行ってみよう。</description>
+    </item>
+    
+    <item>
+      <title>i-mode バージョン</title>
+      <link>https://kusumotonorio.github.io/2003/10/imode.html</link>
+      <pubDate>Thu, 09 Oct 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2003/10/imode.html</guid>
+      <description>Blog作成ツールをMovable Type(以下MT)に変更したものの、その必然性が希薄という事態になっていたので、iBlogで出来なさそうなそうなことをと、このBlogのライトバージョンも作ってi-mode からも読める様にしてみた。
+ライトバージョンのアドレスは、（”i/”が付いただけ）
+/i/
+このBlogにそんなページが必要かはともかく、i-mode携帯や、CSSやUnicodeに対応していない初期のWEBブラウザでも観ることが出来ると思う。
+MTのBlogをi-mode等から読むことが出来る様にするためのプログラムに、MT4iという便利なものがあるのだが、アクセス時に動的にページを生成するCGIであるため、.Mac上では使えない。そこで、i-mode用のページを別に作らせている。
+i-mode用のページを作るのにはmultithreadさんのこのページが参考になる。
+ただし、MTをUTF-8で運用しているのでi-mode用のページもUTF-8になってしまう。そこで、i-mode用のページはここから頂いて来たPerlのスクリプト(nkf.pl)でShift JISに変換。さらに、IMGタグをリンクに差し替えている。</description>
+    </item>
+    
+    <item>
+      <title>iBlog から Movable Type へ</title>
+      <link>https://kusumotonorio.github.io/2003/09/iblog_movable_type.html</link>
+      <pubDate>Thu, 25 Sep 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2003/09/iblog_movable_type.html</guid>
+      <description>iBlog は分かりやすく難しい設定も不要で、とてもMac らしい優れもののウェブログ・ツールなのだが、
+・生成するブログのアドレスをコントロール出来ない（多分）
+例えば、以前のブログのアドレスでは、“B1024733657”が付いている
+・どうやら、この“B1024733657”とかは再インストールすると変わってしまうらしい（？）
+・エントリ等の日本語が『実体参照』での表現になってしまう
+・有償で、もうすぐ無料評価期間が終わる
+ということで、ウェブログ作成ツールを iBlog から Movable Type に替えた。
+Mac OS X で Movable Type を動かし、ローカルのデータを変換してサーバー（.Mac）に上げているのだが、ひげおやじ’s HomePage さんの下記のページがとても参考になった。どうもありがとうございました。ほとんどそのまま使わせてもらってます。
+http://homepage1.nifty.com/~masaharu/archives/cat_web.html
+ただ、少しだけシェル・スクリプトに手を加えていて、
+rsync -vru ~/Documents/myblog/ /Volumes/user-name/Sites/your-blog-dir/
+という感じで最後に一行追加して、iDisk をマウントしてからスクリプトを走らせている。
+【追記　２００３　９／２７】
+.Macユーザに期間限定の無償提供が始まった。
+また、URLの制御については、設定で解決可能だということが分かった。
+こうなると、Movable Typeへ移行したのは早まったかなぁ、と思わないでもない。
+あとは、『実体参照』の件だが、HTMLの仕様に違反している訳じゃないので、変更してくれるかどうか…　これでアジア圏のユーザが増えてフィードバックが増えると、さらに良くなっていく可能性も。期待してます。　</description>
+    </item>
+    
+  </channel>
+</rss>
