@@ -58,6 +58,25 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2010/04/post_156.html" rel="bookmark">
+			春を夢見し
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2010-04-09T00:00:00Z">2010-04-09</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/EVERYDAY-LIFE.html" rel="category">EVERYDAY LIFE</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		漫画家、佐藤史生の訃報。寡作な人だったので、しばらく作品を見掛けないけど最近何か描いているんだろうかと話していたところだった。
+分類としては少女漫画になるのだろうが、『この貧しき地上に』、『ワン・ゼロ』、『魔術師さがし』などのコンピュータを扱ったものや、阿呆船をモチーフにした作品など、異色のSF・ファンタジー漫画を描いた。新作をもっと読みたかったが、それはもう叶わない。
+佐藤史生の初期の作品、『春を夢見し』をまた読みたくなった。姉が処分してしまっていないことを祈る。
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2010/03/post_155.html" rel="bookmark">
 			甘辛いどて煮と温泉卵のマイルドな味わい
 			</a>
@@ -242,31 +261,6 @@ LUMIX DMC-GF1 / LUMIX G 20mm F1.7 ASPH.
 「昆虫グミをバレンタインに贈ってみる実験」という無茶な感じの記事を読んだので「Gummix」なるものは知っていたのだが、数日前に『製品』が弁当に入っている写真が新聞に載っていて、それも嫌だなと思った。
 バレンタインに贈ってみた記者は男子を釣ることには失敗した様だが、これを魚釣りに使ってみたらどうなるのか、と気になった。フライフィッシング界では、疑似餌を人間目線でソックリにしても魚は餌だと思わないと言われている（様な気がする）。でも味、匂い付きのグミ液を使って作れば、使えそうな気がする。
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2010/01/post_146.html" rel="bookmark">
-			暫定的解決
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2010-01-04T00:00:00Z">2010-01-04</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>, <a class="meta__link" href="/categories/PHOTOGRAPH.html" rel="category">PHOTOGRAPH</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		LUMIX DMC-GF1 / LUMIX G 20mm F1.7 ASPH.
-Snow Leopard 環境で今までの様なブログ更新環境を維持するために悪戦苦闘していたが、一応それが出来そうである。
-自前で Movable Type を立ち上げ、ローカルの静的ファイルを他のサーバーにアップロードするという変則的な運用をしている。Movable Type のバージョンは 3.34 で、データ保存方式は Berkeley DB。この 3.34 と Snow Leopard 環境の XML-RPC 絡みの相性が悪いらしくて、ecto 等のブログ・エディタでデータを送受信する際にエラーが出てしまう。
-これには、Snow Leopard に入っている Perl のバージョンが今までのものより新しいことが関係している様だ。/usr/bin を見ると、Snow Leopard には 5.10.0 と 5.8.9 の、２バージョンの perl が入っていた。CGI を少しでも古い方の 5.8.9 で動かすために MT の各 cgi ファイルの先頭行を
-#!/usr/bin/perl -w
-から
-#!/usr/bin/perl5.8.9 -w
-に書き換える。これでブログ・エディタが Movable Type からデータを取り出す方はエラーが起きなくなったが、アップロード時は駄目だった。
-データが壊れてしまうので Snow Leopard では使用するなという Mac 用ブログ・エディタがあることからして、どうやら Snow Leopard で XML-RPC か シリアライズ関連の API の動きが変ったらしい。そこで、Java で書かれたジャストシステムの xfy Blog Editor の無償版を使ってみたら、送信も出来た。
-	</div>
 </article>
 </main>
 
@@ -291,11 +285,11 @@ Snow Leopard 環境で今までの様なブログ更新環境を維持するた�
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2023/09/survival_fishing.html">五年ぶりの釣行と、そこでの危機</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2023/01/casting_training.html">DHキャスティング練習</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2023/01/hello_hugo2.html">Hello Hugo! 2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2023/01/hello_hugo.html">Hello Hugo!</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2020/11/1000books.html">千冊に到達</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2020/04/The-eternal-Curtis-Creek.html">永遠のカーティス・クリーク</a></li>
 		</ul>
 	</div>
 </div>
