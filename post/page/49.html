@@ -58,6 +58,39 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2005/04/2005-04-12-post0412.html" rel="bookmark">
+			サーバーに何かした？
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2005-04-12T00:00:00Z">2005-04-12</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		.Mac（ドット・マック）サービスで運用している当ブログが、一般的なブラウザーで表示できなくなっていることに気が付いた。FirefoxやIEで表示しようとすると、HTMLファイルと認識されない様だ。Safariでは問題が起きないので気が付かなかった。
+ローカルマシンのMTで作られたファイルをrsyncでアップロードしている。何かアップロードの仕方に問題があったかと調べてみたが、よくわからない。そういえば、つい最近似た様な話を読んだ様な…　と思ってもう一度読んでみると、どうも関係がありそうだ。 追記；photoboxの不具合
+どうやら、Appleが.Macを大きくいじった可能性が高い。
+取りあえず、Finder上でドラッグ＆ドロップでコピーすれば問題を回避できる様なので、index.htmlだけこれで行く。
+［追記］
+表示できないもののヘッダーを見ると：
+HTTP/1.1 200 OK
+Date: Tue, 12 Apr 2005 12:40:34 GMT
+Content-Length: 5939
+Content-Type: application/octet-stream
+Cache-Control: public
+Server: AppleDotMacServer
+X-Responding-Server: webdav04
+ETag: 14djc8on-44lp-inmyhm87o-3rgdozcih0
+Last-Modified: Tue, 12 Apr 2005 12:10:09 GMT
+Via: 1.1 netcache06 (NetCache NetApp/5.5R4)
+この“Content-Type: application/octet-stream”が原因だな。“text/html”でなくてはいけない。
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2005/04/2005-04-11-post0411.html" rel="bookmark">
 			一からやり直し
 			</a>
@@ -248,27 +281,6 @@ T.Craftさんの製品を買ってから、オイル・フィニッシュの木�
 今晩は Clutter をインストールしたのだが、なかなか小粋なソフトだ。
 Apple の誇るジュークボックス・アプリ、iTunes をコントロールする。アマゾンからアルバム・ジャケットの画像を取ってきて、その画像をデスクトップにドロップすると、そのジャケットがアルバムごとのコントロール・ウインドウになる。iTunes でもアルバム画像を表示できるけど、Clutter は「そのアルバムを聴く」というのが感覚的に分かりやすい。いつもシャッフルせずに、買ってきたアルバムを飽きるまで何度も聴くという感じなので、自分に合いそうだ。
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2005/02/2005-02-28-post0228.html" rel="bookmark">
-			ネズミがお米を愛するみたいに
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2005-02-28T00:00:00Z">2005-02-28</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/MUSIC.html" rel="category">MUSIC</a>, <a class="meta__link" href="/categories/TAI-CHI-CHUAN.html" rel="category">TAI-CHI-CHUAN</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		『聴く中国語』という雑誌の３月号を買った。『中国語で聴いてみよう！２４式太極拳』という記事があり、套路（型）の発音が付属のCDで聴けるからなのだが、表紙がいっこく堂で、出来ることならこちらの方を買いたい気分だったが、そうもいかない。
-去年の４月からラジオの中国語講座を聴いているのだけど、切っ掛けは太極拳の套路を中国語で言える様になりたいということだった（のだが、忘れていた）。一年前にこの号があったら、ラジオで勉強することもなかっただろう。ラジオを聴いているだけではちっとも喋れないままだが、多少耳が慣れた気がする。
-まだ太極拳以外のところは殆ど読んでいない（と言うか、読めない）けど、中国で流行った歌の話が面白そうだ。『老鼠愛大米』というラブ・ソングを取り上げているのだが、「像老鼠愛大米」で「鼠が米を愛するように」という意味で、深く愛している様を表現しているらしい。Googleなどで検索すると日本人にも好評の様だが…皆さん「そんな、アホな（笑）！！」って突っ込み入れなくていいんですか？
-一見コミカルなタイトルとはうらはらに、切なく胸を打つラブソングです。ネット上に発表されて人気に火がついたこの曲。中国人の女の子に恋をしている方は、覚えて歌えば彼女の心をゲットできるかも！？
-と書いてあるが、日本人の女の子の心はゲットできそうにありませんな。
-	</div>
 </article>
 </main>
 
@@ -293,11 +305,11 @@ Apple の誇るジュークボックス・アプリ、iTunes をコントロー�
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2024/03/hyperVWadingShoes.html">作業靴のウェーディング・シューズ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/shiftKnob.html">FIAT Panda シフトノブの加工</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/02/pandaAndSmartphone.html">何処にスマホを取り付ける？</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/02/fiatPandaCrossGearRatio.html">Panda Cross のギアレシオ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/02/fiat-panda.html">FIAT Panda Cross 4x4 納車</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2023/09/survival_fishing.html">五年ぶりの釣行と、そのとき訪れた危機</a></li>
 		</ul>
 	</div>
 </div>
