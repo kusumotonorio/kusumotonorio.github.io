@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kusumotonorio.github.io/categories/BICYCLE.html</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kusumotonorio.github.io/categories/CAR.html</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kusumotonorio.github.io/categories.html</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kusumotonorio.github.io/2024/03/pandaXbicycle.html</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kusumotonorio.github.io/</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kusumotonorio.github.io/post.html</loc>
+    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/categories/FISHING.html</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
@@ -11,17 +26,8 @@
     <loc>https://kusumotonorio.github.io/categories/FLY-FISHING.html</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kusumotonorio.github.io/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kusumotonorio.github.io/post.html</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kusumotonorio.github.io/2024/03/hyperVWadingShoes.html</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kusumotonorio.github.io/categories/CAR.html</loc>
-    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/2024/03/shiftKnob.html</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
@@ -139,9 +145,6 @@
   </url><url>
     <loc>https://kusumotonorio.github.io/2016/06/kaze-wo-atsumete.html</loc>
     <lastmod>2016-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kusumotonorio.github.io/categories/BICYCLE.html</loc>
-    <lastmod>2016-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/2016/05/gw2016.html</loc>
     <lastmod>2016-05-13T00:00:00+00:00</lastmod>

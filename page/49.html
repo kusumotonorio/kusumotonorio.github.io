@@ -57,6 +57,38 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2005/04/maccontenttype.html" rel="bookmark">
+			.MacのContent-Typeの不具合を回避する
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2005-04-14T00:00:00Z">2005-04-14</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		（続き）
+.Macサポートからメールが来たが、「奴らは間違った場所を掘っている」という感じがする。直してくれるのかどうか不安なので、自力解決を目指す。
+HTMLファイルをFinderからドラッグ＆ドロップしてコピーを行ったときは、Content-Typeがapplication/octet-streamに化けずに、text/htmlで正しく送られてくる。同様の不具合で困っている人の報告を見ると、「 GoliveのWebDAVなら問題ない」とのこと。確か、FinderもWebDAVでファイルをアップロードしていたはず。ということは、WebDAVプロトコルでアップロードすれば問題を回避できる可能性が高い。（追記： Goliathによるアップロードで問題が起きる報告もある。 GoliathはWebDAVクライアントなので、WebDAVであれば良いという訳ではないらしい。）
+WebDAVでアップロードするシンクロ・ツールを探したところ、sitecopyというものがあることが判った。.Macで使う方法が親切に解説されているページも見つけた。
+・using sitecopy for synchronising local file and idisk(.Mac)
+このページに倣ってsitecopyの設定を行い、同期に成功した。結果は良好。“Content-Type: text/html”で送られてくる。それにしても、どうやったらこんな器用な不具合が起こせるんだろう。逆に難しそうなのだが。技術的な興味が湧きますな。
+今までrsyncを使っていたが、sitecopyに換えたことでアップロードにかかる時間が大幅に短縮されるという、嬉しい『副作用』があった。何か手を考えなくてはいけないと思っていたので、災い転じて福となすという感じだ。それに、iDiskをマウントしておかなくても良くなった。
+自分の為に、以下に設定方法をメモしておく。
+準備：
+% cd ~
+% mkdir -m 700 .sitecopy % touch .sitecopyrc % chmod 600 .sitecopyrc
+% sitecopy —catchup blog
+~/.sitecopyrc
+site blog server idisk.mac.com protocol webdav username n_kusumoto password [.Mac password] local [local blog path] remote /n_kusumoto/Sites/blog/
+同期時：
+% sitecopy —update blog
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2005/04/2005-04-12-post0412.html" rel="bookmark">
 			サーバーに何かした？
 			</a>
@@ -261,25 +293,6 @@ CONTAXブランドのカメラを買う人は、それに「普通」を求め�
 と言っても、板を買ってきて、ドレッサーで面取りしてオイルを塗っただけなのだが。選んだ木材は月桂樹。月桂樹の葉は、料理に使ったり（ローリエ）、ＴＶでオリンピックの冠（月桂冠）で見たことがあって知っていたが、木の板は初めて見た気がする。先日使った花梨も重かったけど、この木も結構重量がある。手を動かしても安定していることを期待して、ちょっと高かったが選んでみた。少し緑がかった様な黄土色だったものが、亜麻仁油を塗ったところ色が変わって焦げ茶色になった。
 T.Craftさんの製品を買ってから、オイル・フィニッシュの木製品の手触りに惹かれている。ウレタンとは違って、塗る作業も気軽に出来る。今度ロッドを作るときはオイル仕上げにしようかなと。
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2005/03/pos0302t.html" rel="bookmark">
-			古風な音楽の聴き方
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2005-03-02T00:00:00Z">2005-03-02</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		パソコン、Mac mini の『環境整備』がちっとも終わらない。今までハードディスクの容量や CPU の処理速度の問題で諦めてきたものをセッセとインストールしている。昨夜も OpenOffice 系の、NeoOffice/J を一晩かけてダウンロードして目覚めてからインストール。これで Microsoft Excel や Word のファイルがメールに添付されてきても読めるでしょう…
-今晩は Clutter をインストールしたのだが、なかなか小粋なソフトだ。
-Apple の誇るジュークボックス・アプリ、iTunes をコントロールする。アマゾンからアルバム・ジャケットの画像を取ってきて、その画像をデスクトップにドロップすると、そのジャケットがアルバムごとのコントロール・ウインドウになる。iTunes でもアルバム画像を表示できるけど、Clutter は「そのアルバムを聴く」というのが感覚的に分かりやすい。いつもシャッフルせずに、買ってきたアルバムを飽きるまで何度も聴くという感じなので、自分に合いそうだ。
-	</div>
 </article>
 </main>
 
@@ -303,11 +316,11 @@ Apple の誇るジュークボックス・アプリ、iTunes をコントロー�
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2024/03/pandaXbicycle.html">FIAT Panda X 自転車</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/hyperVWadingShoes.html">作業靴のウェーディング・シューズ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/shiftKnob.html">FIAT Panda シフトノブの加工</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/02/pandaAndSmartphone.html">何処にスマホを取り付ける？</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/02/fiatPandaCrossGearRatio.html">Panda Cross のギアレシオ</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2024/02/fiat-panda.html">FIAT Panda Cross 4x4 納車</a></li>
 		</ul>
 	</div>
 </div>
