@@ -58,6 +58,25 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2007/02/post_1.html" rel="bookmark">
+			移行完了
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2007-02-25T00:00:00Z">2007-02-25</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		データの移動は「移行アシスタント」が自動的にやってくれるので良いんだけど、このブログの書くための Movable Type が上手く動かなくて、この際だから最新の3.34に入れ替える。使っていた古いバージョンとは作ったファイルの配置や名前の付け方などが大きく変わっていて、 Apple の .Mac サーバにアップするための自作スクリプトと合わなくなった部分もあるが、大体クリアできた。これで旧マシンの引き渡しが出来る。
+CPU が異なるというコンピュータとしては決定的な変更を行っているにもかかわらず、前の Mac mini からの移行には拍子抜けする程、環境の違いが感じられない。お見事、Rosetta。こんな危なっかしい綱渡りを何度もスムーズに行う Appleは大したもんだと言うか、何というか…。
+これで Windows 等の Intel 系の資源は活用する道が開けたが、逆に Mac OS 9 以前のアプリは動かない。その辺をなんとかしなくてはならない。もっとも、今使っているのは Harmony Assistant と Melody Assistant の日本語リソースファイルを編集するために使っている ResEdit だけなのだが。 
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2007/02/post0223.html" rel="bookmark">
 			勘違い
 			</a>
@@ -242,39 +261,6 @@ site blog server idisk.mac.com protocol webdav username n_kusumoto password [.Ma
 同期時：
 % sitecopy —update blog
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2005/04/2005-04-12-post0412.html" rel="bookmark">
-			サーバーに何かした？
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2005-04-12T00:00:00Z">2005-04-12</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		.Mac（ドット・マック）サービスで運用している当ブログが、一般的なブラウザーで表示できなくなっていることに気が付いた。FirefoxやIEで表示しようとすると、HTMLファイルと認識されない様だ。Safariでは問題が起きないので気が付かなかった。
-ローカルマシンのMTで作られたファイルをrsyncでアップロードしている。何かアップロードの仕方に問題があったかと調べてみたが、よくわからない。そういえば、つい最近似た様な話を読んだ様な…　と思ってもう一度読んでみると、どうも関係がありそうだ。 追記；photoboxの不具合
-どうやら、Appleが.Macを大きくいじった可能性が高い。
-取りあえず、Finder上でドラッグ＆ドロップでコピーすれば問題を回避できる様なので、index.htmlだけこれで行く。
-［追記］
-表示できないもののヘッダーを見ると：
-HTTP/1.1 200 OK
-Date: Tue, 12 Apr 2005 12:40:34 GMT
-Content-Length: 5939
-Content-Type: application/octet-stream
-Cache-Control: public
-Server: AppleDotMacServer
-X-Responding-Server: webdav04
-ETag: 14djc8on-44lp-inmyhm87o-3rgdozcih0
-Last-Modified: Tue, 12 Apr 2005 12:10:09 GMT
-Via: 1.1 netcache06 (NetCache NetApp/5.5R4)
-この“Content-Type: application/octet-stream”が原因だな。“text/html”でなくてはいけない。
-	</div>
 </article>
 </main>
 
@@ -299,11 +285,11 @@ Via: 1.1 netcache06 (NetCache NetApp/5.5R4)
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2024/04/imagemagick_and_pixelmator.html">自炊のスジ取りメモ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/pandaXbicycle.html">FIAT Panda × 自転車</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/hyperVWadingShoes.html">作業靴のウェーディング・シューズ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/shiftKnob.html">FIAT Panda シフトノブの加工</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/02/pandaAndSmartphone.html">何処にスマホを取り付ける？</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2024/02/fiatPandaCrossGearRatio.html">Panda Cross のギアレシオ</a></li>
 		</ul>
 	</div>
 </div>
