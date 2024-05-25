@@ -17,7 +17,7 @@
 		<meta itemprop="name" content="自炊のスジ取りメモ">
 <meta itemprop="description" content="過去に『自炊』してスキャン時に出来たスジが気になるものの修正を試みた。嵌まって結構大変だった。"><meta itemprop="datePublished" content="2024-04-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2024-04-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="34">
+<meta itemprop="wordCount" content="33">
 <meta itemprop="keywords" content="" />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="自炊のスジ取りメモ"/>
@@ -80,12 +80,11 @@
 <p>本当はGIMPの『消しゴムマジック』的なものでスジ消しをして、お金をかけない方法でやりたかったのだけど、自分のMacではプラグインが動かなかったのでしかたなく。</p>
 <p>苦労した事を次のときのために書いておく</p>
 <ul>
-<li>JPEG化するときの連番がデフォルトのままだと再結合時に問題になる。
-おそらく、</li>
+<li>JPEG化するときの連番がデフォルトのままだと再結合時に問題になる。</li>
 </ul>
+<p>おそらく、以下のようにすれば、桁がそろう。</p>
 <pre tabindex="0"><code>convert -density 300 -quality 95 a.pdf a-%03d.jpeg
-</code></pre><p>とすれば、桁がそろう。</p>
-<ul>
+</code></pre><ul>
 <li>PixelMator Pro でJpegで書き出すとき、DPIに注意。
 修正したページだけ72dpiになっていて、でかくなってしまった。
 今回はプレビューでDPIを変換した。
@@ -101,6 +100,12 @@ PixelMatorの「画像のサイズ…」で行うとき、ピクセル数を打�
 		<a class="pager__link" href="/2024/03/pandaXbicycle.html" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
 			<p class="pager__title">FIAT Panda × 自転車</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/2024/05/handle_cover.html" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Pandaに自作ステアリング・カバー</p>
 		</a>
 	</div>
 </nav>
@@ -120,11 +125,11 @@ PixelMatorの「画像のサイズ…」で行うとき、ピクセル数を打�
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2024/05/handle_cover.html">Pandaに自作ステアリング・カバー</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/04/imagemagick_and_pixelmator.html">自炊のスジ取りメモ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/pandaXbicycle.html">FIAT Panda × 自転車</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/hyperVWadingShoes.html">作業靴のウェーディング・シューズ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/shiftKnob.html">FIAT Panda シフトノブの加工</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2024/02/pandaAndSmartphone.html">何処にスマホを取り付ける？</a></li>
 		</ul>
 	</div>
 </div>

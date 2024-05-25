@@ -2,25 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kusumotonorio.github.io/categories.html</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+    <loc>https://kusumotonorio.github.io/categories/CAR.html</loc>
+    <lastmod>2024-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kusumotonorio.github.io/categories/COMPUTER.html</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+    <loc>https://kusumotonorio.github.io/categories.html</loc>
+    <lastmod>2024-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/</loc>
-    <lastmod>2024-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kusumotonorio.github.io/2024/05/handle_cover.html</loc>
+    <lastmod>2024-05-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/post.html</loc>
+    <lastmod>2024-05-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kusumotonorio.github.io/categories/COMPUTER.html</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/2024/04/imagemagick_and_pixelmator.html</loc>
     <lastmod>2024-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/categories/BICYCLE.html</loc>
-    <lastmod>2024-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kusumotonorio.github.io/categories/CAR.html</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kusumotonorio.github.io/2024/03/pandaXbicycle.html</loc>
