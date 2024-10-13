@@ -58,6 +58,25 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2019/01/mojave.html" rel="bookmark">
+			断捨離的ＯＳバージョンアップ・インストール
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2019-01-04T00:00:00Z">2019-01-04</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		暫くブログの更新をサボっていたら、いつの間にか Jekyll が正常に動かなくなっており、ブログが書けなかった。アップデートで Ruby 環境が変わったのが原因らしい。いろいろやって結局直せなかったので、これを機会に最新の MacOS Mojave (10.14.2）にＯＳを入れ替えて、そこに Jekyll を入れることにした。
+長年かけて溜まった、使わなくなったアプリ、設定やデータを新環境に出来るだけ持ってこない様にして、新年からスッキリを目指す。メールをはじめ各アプリのデータの移行、操作環境の再現などに一週間ほどかかったが、大体出来た様だ。前の環境からアプリを持ってきても、Mojave で動かないものも結構ある。Emacs が一番苦労した（終わってないけど）。
+更新前は Jekyll にプラグインによる機能拡張を可能にする jekyll_ext（ejekyll）を使っていたけども、後に Jekyll 自体が機能拡張機構を持つ様になって、もう jekyll_ext はメンテされていないみたいだ。jekyll_ext で使っていたプラグインと同じことを Jekyll のプラグインで行うにはもっと勉強が必要になるので、ハードルを下げて最低限の動作で妥協。なんとか新年挨拶の更新までに間に合った。
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2018/08/jisui400.html" rel="bookmark">
 			４００冊を通過
 			</a>
@@ -221,27 +240,6 @@ Movable Type の出来が悪いということではなく、手元のコンピ�
 Jekyll に変更するにあたって、次のことを方針とした。
 今まで書いたエントリーを編集可能な状態で引き継ぐ 原則、今までのエントリーの URL を維持する ページのデザインは今までのテンプレートを流用して引き継ぐ 今までの機能を出来るだけ再現する 複雑になってしまったアップロードの処理を単純化する まだ試行錯誤をしているが、だいたいは目的を逹することが出来た。自分のための記録としてどの様なことをやったかを書いておこうと思うが、長くなりそうなので他が一段落してからに。
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2010/07/lisp.html" rel="bookmark">
-			超チャレンジャーな声優ユニット
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2010-07-28T00:00:00Z">2010-07-28</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		・LISP OFFICIAL WEB SITE 部屋とパソコンとLISP （※注意 いきなり喋ります）
-「普通のやつらの上を行け」ということですね、わかります。とうとうプログラミング言語も、「擬人化」から「実在化」の時代に。
-・阿澄佳奈を中心とした超至近距離・声優ユニット「LISP」始動!
-まだ生まれたばかりのLISPですが、ファンの皆さんに応援していただいて、「未発達な」LISPから一歩ずつ成長していきたいと思います。応援よろしくお願いします!
-確かに、Lisp 的な…。あとは、額に「λ」と書くと良いかもね。
-	</div>
 </article>
 </main>
 
@@ -266,11 +264,11 @@ Jekyll に変更するにあたって、次のことを方針とした。
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2024/10/pdf-r2l.html">PDFファイルの綴じ方向の変更</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/08/pandaXFishing.html">FIAT Panda × 釣り</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/05/handle_cover.html">Pandaに自作ステアリング・カバー</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/04/imagemagick_and_pixelmator.html">自炊のスジ取りメモ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/pandaXbicycle.html">FIAT Panda × 自転車</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2024/03/hyperVWadingShoes.html">作業靴のウェーディング・シューズ</a></li>
 		</ul>
 	</div>
 </div>

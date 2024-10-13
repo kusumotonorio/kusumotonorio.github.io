@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Kusumoto&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kusumotonorio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kusumotonorio.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PDFファイルの綴じ方向の変更</title>
+      <link>https://kusumotonorio.github.io/2024/10/pdf-r2l.html</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kusumotonorio.github.io/2024/10/pdf-r2l.html</guid>
+      <description>いつも使い方を忘れてしまうので、自分用メモ。
+$ pdf-r2l Usage: pdf-r2l R2L|L2R input-file outout-file 便利に使わさせていただいております。どうも有り難うございます。
+PDFの綴じ方向を変更するツールをDockerHubで公開した</description>
+    </item>
+    
     <item>
       <title>FIAT Panda × 釣り</title>
       <link>https://kusumotonorio.github.io/2024/08/pandaXFishing.html</link>

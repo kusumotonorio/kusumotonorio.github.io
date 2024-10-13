@@ -58,6 +58,25 @@
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/2007/03/post_6.html" rel="bookmark">
+			こんな世界は嫌だ
+			</a>
+		</h2>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2007-03-19T00:00:00Z">2007-03-19</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		これはネタなんだろうか？　それとも……。
+・OKWave ミクシィで読み逃げするマイミク！
+mixiのことは未だ良く知らない。でも、こんな粘度の付き合いを求められる「世界」だというならば、輪に加えてくれなくていいや。いや、流石にこれがmixiの「常識」ということはないよね？
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/2007/02/post_1.html" rel="bookmark">
 			移行完了
 			</a>
@@ -229,38 +248,6 @@ Mac miniを買った時点で次期OSの登場が近いことが分かってい�
 あと、個人的にはAH-J3003Sでのダイアルアップ接続が安定しないのが一番痛い。pppdを「殺し」ても接続解除の状態から抜け出せないことが多いので、再起動ばかりしている。日本無線は10.4への対応をうたっていないのでAppleの問題だとは言えないのだが、専用のドライバではなく一般的なUSBモデムとして接続するので、Apple側が何かしないと改善しないのではないかと思う。（追記：これは、10.4の問題ではないのかもしれない。“IO-DATA USB-CFADP” のモデムスクリプトを流用すると、多少安定する。）
 ネガティブな感想を書かざるをえないのは、Appleファンとしては残念である。もちろん魅力的な点も多いので、問題が改善されれば早く移りたい。
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/2005/04/maccontenttype.html" rel="bookmark">
-			.MacのContent-Typeの不具合を回避する
-			</a>
-		</h2>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2005-04-14T00:00:00Z">2005-04-14</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/COMPUTER.html" rel="category">COMPUTER</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		（続き）
-.Macサポートからメールが来たが、「奴らは間違った場所を掘っている」という感じがする。直してくれるのかどうか不安なので、自力解決を目指す。
-HTMLファイルをFinderからドラッグ＆ドロップしてコピーを行ったときは、Content-Typeがapplication/octet-streamに化けずに、text/htmlで正しく送られてくる。同様の不具合で困っている人の報告を見ると、「 GoliveのWebDAVなら問題ない」とのこと。確か、FinderもWebDAVでファイルをアップロードしていたはず。ということは、WebDAVプロトコルでアップロードすれば問題を回避できる可能性が高い。（追記： Goliathによるアップロードで問題が起きる報告もある。 GoliathはWebDAVクライアントなので、WebDAVであれば良いという訳ではないらしい。）
-WebDAVでアップロードするシンクロ・ツールを探したところ、sitecopyというものがあることが判った。.Macで使う方法が親切に解説されているページも見つけた。
-・using sitecopy for synchronising local file and idisk(.Mac)
-このページに倣ってsitecopyの設定を行い、同期に成功した。結果は良好。“Content-Type: text/html”で送られてくる。それにしても、どうやったらこんな器用な不具合が起こせるんだろう。逆に難しそうなのだが。技術的な興味が湧きますな。
-今までrsyncを使っていたが、sitecopyに換えたことでアップロードにかかる時間が大幅に短縮されるという、嬉しい『副作用』があった。何か手を考えなくてはいけないと思っていたので、災い転じて福となすという感じだ。それに、iDiskをマウントしておかなくても良くなった。
-自分の為に、以下に設定方法をメモしておく。
-準備：
-% cd ~
-% mkdir -m 700 .sitecopy % touch .sitecopyrc % chmod 600 .sitecopyrc
-% sitecopy —catchup blog
-~/.sitecopyrc
-site blog server idisk.mac.com protocol webdav username n_kusumoto password [.Mac password] local [local blog path] remote /n_kusumoto/Sites/blog/
-同期時：
-% sitecopy —update blog
-	</div>
 </article>
 </main>
 
@@ -285,11 +272,11 @@ site blog server idisk.mac.com protocol webdav username n_kusumoto password [.Ma
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/2024/10/pdf-r2l.html">PDFファイルの綴じ方向の変更</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/08/pandaXFishing.html">FIAT Panda × 釣り</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/05/handle_cover.html">Pandaに自作ステアリング・カバー</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/04/imagemagick_and_pixelmator.html">自炊のスジ取りメモ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/2024/03/pandaXbicycle.html">FIAT Panda × 自転車</a></li>
-			<li class="widget__item"><a class="widget__link" href="/2024/03/hyperVWadingShoes.html">作業靴のウェーディング・シューズ</a></li>
 		</ul>
 	</div>
 </div>
